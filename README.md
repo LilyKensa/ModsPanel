@@ -69,6 +69,6 @@ I just too lazy to have `src` and `dist` folder separated
 
 ---
 
-If you wanna contribute, pull requests are welcome.
+If you wanna contribute, pull requests are welcome
 
 ~~​ But that doesn't mean I will adopt your approach ​~~
