@@ -19,17 +19,34 @@ The Mods Panel has these functions:
 
 ## How to Install
 
+### Install node.js
+
+You can download it from [here]()
+
+### Installation
+
 > [!WARNING]  
-> I assume your operating system is WIndows
+> I assume your operating system is Windows  
+> So the below is Windows PowerShell commands
 
 First, you need to be in your `.minecraft` folder:
 
-```ps
-cd /path/to/.minecraft/
+```bash
+cd ~/AppData/Roaming/.minecraft/
 ```
 
 Create the `ModsPanel` folder:
 
-```ps
-%{mkdir $_; cd $_}
+```bash
+mkdir ModsPanel; cd ./ModsPanel/ 
+```
+
+Clone this repository:
+
+```bash
+git clone https://github.com/LilyKensa/ModsPanel.git .
+```
+
+```
+
 ```
