@@ -6,7 +6,7 @@ By [@LilyKensa](https://github.com/LilyKensa/),
 
 ## Features
 
-The Mods Panel has these functions:
+The Mods Panel ~~​ has ​~~ *should have* these functions:
 
 - Basic functions 
   - Listing
