@@ -53,7 +53,7 @@ Start the index script
 node index
 ```
 
-~~ If you encounter any issue, don't contact me because I probably won't be able to solve it for you ~~
+~~​ If you encounter any issue, don't contact me because I probably won't be able to solve it for you ​~~
 
 Just kidding, you can always find me on discord @.\_hueeey\_.
 
@@ -71,4 +71,4 @@ I just too lazy to have `src` and `dist` folder separated
 
 If you wanna contribute, pull requests are welcome.
 
-~~ But that doesn't mean I will adopt your approach ~~
+~~​ But that doesn't mean I will adopt your approach ​~~
