@@ -20,7 +20,12 @@ async function reloadModsList() {
     const modDataFile = zipFolder.file("fabric.mod.json");
     if (modDataFile === null) continue;
 
-    const modData = JSON.parse(await modDataFile.async("string"));
+    const modData = JSON.parse(
+      (await modDataFile.async("string"))
+        .split(`"`)
+        .map((v, i) => i % 2 ? v.replace(/\r\n|\r|\n/g, "\\n") : v)
+        .join(`"`)
+    );
 
     modsList.push({
       id: modData.id,

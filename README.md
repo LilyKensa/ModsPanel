@@ -17,13 +17,13 @@ The Mods Panel has these functions:
   - Remove if no mod required it
 - Grouping
 
-## How to Install
+## Installation
 
-### Install node.js
+### Node.js
 
-You can download it from [here]()
+You can download it from [the official website](https://nodejs.org/en)
 
-### Installation
+### Download & Run Script
 
 > [!WARNING]  
 > I assume your operating system is Windows  
@@ -31,22 +31,28 @@ You can download it from [here]()
 
 First, you need to be in your `.minecraft` folder:
 
-```bash
+```ps
 cd ~/AppData/Roaming/.minecraft/
 ```
 
 Create the `ModsPanel` folder:
 
-```bash
+```ps
 mkdir ModsPanel; cd ./ModsPanel/ 
 ```
 
 Clone this repository:
 
-```bash
+```ps
 git clone https://github.com/LilyKensa/ModsPanel.git .
 ```
 
+Start the index script
+
+```ps
+node index
 ```
 
-```
+~~ If you encounter any issue, don't contact me because I probably won't be able to solve it for you ~~
+
+Just kidding, you can always find me on discord @.\_hueeey\_.

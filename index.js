@@ -75,7 +75,10 @@ function reloadModsList() {
                     _c = (_b = JSON).parse;
                     return [4 /*yield*/, modDataFile.async("string")];
                 case 5:
-                    modData = _c.apply(_b, [_d.sent()]);
+                    modData = _c.apply(_b, [(_d.sent())
+                            .split("\"")
+                            .map(function (v, i) { return i % 2 ? v.replace(/\r\n|\r|\n/g, "\\n") : v; })
+                            .join("\"")]);
                     modsList.push({
                         id: modData.id,
                         version: modData.version,
