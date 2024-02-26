@@ -41,7 +41,7 @@ Create the `ModsPanel` folder:
 mkdir ModsPanel; cd ./ModsPanel/ 
 ```
 
-> [!INFO]  
+> [!NOTE]  
 > The script reads the `../mods/` folder, so you can't move the `ModsPanel` folder to anywhere else
 
 Clone this repository:
@@ -56,7 +56,7 @@ Install all required node modules
 npm install
 ```
 
-> [!INFO]  
+> [!NOTE]  
 > This action will install:  
 > - `Express.js` for the backend server to run
 > - `JSZip` to read the `.jar` files
