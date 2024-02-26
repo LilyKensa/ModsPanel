@@ -67,7 +67,7 @@ Start the index script
 node ./index.js
 ```
 
-The server should be starting at port `8070`, here the [link](http://localhost:8070/)
+The server should be starting at port `8070`, here's the [link](http://localhost:8070/)
 
 ~~​ If you encounter any issue, don't contact me because I probably won't be able to solve it for you ​~~
 
