@@ -12,15 +12,24 @@
     <link rel="stylesheet" href="./style.css">
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container"><span class="navbar-brand">Huey's Minecraft Mods Panel (Fabric)
-            <form class="refresh-form" action="/refresh_modslist" method="post"> 
-              <button class="refresh-button" type="submit"><i class="fa-solid fa-arrows-rotate ps-3"></i></button>
-            </form></span>
+        <div class="container"><span class="navbar-brand">Huey's Minecraft Mods Panel (Fabric)<span class="header-button">
+              <form class="refresh-form" action="/refresh_modslist" method="post"> 
+                <button class="refresh-button" type="submit"><i class="fa-solid fa-arrows-rotate ps-3"></i></button>
+              </form></span><span class="header-button">
+              <form class="save-form" action="/save" method="post"> 
+                <button class="save-button" type="submit"><i class="fa-solid fa-floppy-disk"></i></button>
+              </form></span></span>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         </div>
       </nav>
     </header>
     <div class="container pt-4">
+      <div class="mb-4" id="search-bar">
+        <div class="position-relative">
+          <input type="text" placeholder="Filter by Text">
+          <div class="position-absolute" id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+      </div>
       <div id="list"></div>
     </div>
     <footer>
@@ -31,6 +40,7 @@
         </div>
       </div>
     </footer>
+    <div class="bg-body-tertiary" id="back-to-top"><i class="fa-solid fa-arrow-up"></i></div>
     <script src="./script.js"></script>
   </body>
 </html>

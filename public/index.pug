@@ -17,9 +17,14 @@ html(lang="en", data-bs-theme="dark")
         .container
           span.navbar-brand
             | Huey's Minecraft Mods Panel (Fabric)
-            form.refresh-form(action="/refresh_modslist", method="post") 
-              button.refresh-button(type="submit")
-                i.fa-solid.fa-arrows-rotate.ps-3
+            span.header-button
+              form.refresh-form(action="/refresh_modslist", method="post") 
+                button.refresh-button(type="submit")
+                  i.fa-solid.fa-arrows-rotate.ps-3
+            span.header-button
+              form.save-form(action="/save", method="post") 
+                button.save-button(type="submit")
+                  i.fa-solid.fa-floppy-disk
           button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
             span.navbar-toggler-icon
 
@@ -33,12 +38,20 @@ html(lang="en", data-bs-theme="dark")
     //-     .px-2
     //-       p No issue found
     .container.pt-4
-      //- h1.px-2.my-4 Mods
+      #search-bar.mb-4
+        .position-relative
+          input(type="text", placeholder="Filter by Text")
+
+          #search-icon.position-absolute
+            i.fa-solid.fa-magnifying-glass
       #list
 
     footer
       .container.text-center.mt-5.border-top
         div.pt-4.pb-5.
           Made by Huey © 2024
+
+    #back-to-top.bg-body-tertiary
+      i.fa-solid.fa-arrow-up
 
     script(src="./script.js")

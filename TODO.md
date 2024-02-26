@@ -7,6 +7,7 @@
 
 - Enable / Disable / Delete Buttons
 - Search Bar
+- Back to Top Button
 
 ## Known Issues
 

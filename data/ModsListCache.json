@@ -691,6 +691,17 @@
         }
     },
     {
+        "filename": "effortless-1.20.1-2.2.0.jar",
+        "id": "effortless",
+        "version": "2.2.0",
+        "name": "Effortless",
+        "description": "It just saves your time.",
+        "author": "Requios",
+        "depends": {
+            "minecraft": "1.20.1"
+        }
+    },
+    {
         "filename": "elytraslot-fabric-6.3.0+1.20.1.jar",
         "id": "elytraslot",
         "version": "6.3.0+1.20.1",
