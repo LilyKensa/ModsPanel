@@ -10,3 +10,4 @@
 ## Known Issues
 
 - Sub-mod (`"jars"` in `fabric.mod.json`) support
+- Minecraft Chat Color Codes (`§`) support
