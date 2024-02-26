@@ -1,0 +1,825 @@
+[
+    {
+        "id": "skinlayers",
+        "version": "1.5.4-mc1.20.1",
+        "name": "3d Skin Layers",
+        "description": "Renders the player skin layer in 3d",
+        "depends": {
+            "minecraft": ">=1.20-rc.1"
+        }
+    },
+    {
+        "id": "appleskin",
+        "version": "2.5.0+mc1.20",
+        "name": "AppleSkin",
+        "description": "Adds various food-related HUD improvements",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric-api": "*"
+        },
+        "breaks": {
+            "roughlyenoughitems": "<6.0.306-alpha"
+        }
+    },
+    {
+        "id": "architectury",
+        "version": "9.1.12",
+        "name": "Architectury",
+        "description": "A intermediary api aimed to ease developing multiplatform mods.",
+        "depends": {
+            "minecraft": "~1.20-",
+            "fabricloader": ">=0.14.0",
+            "fabric-api": ">=0.66.0"
+        },
+        "breaks": {
+            "optifabric": "<1.13.0"
+        }
+    },
+    {
+        "id": "armored_elytra",
+        "version": "1.0.0",
+        "name": "Armored Elytra",
+        "description": "Show the armor and elytra when using the armored elytra datapack",
+        "depends": {
+            "fabric": "*",
+            "minecraft": ">=1.20",
+            "architectury": ">=9.0.0"
+        }
+    },
+    {
+        "id": "better-fabric-console",
+        "version": "1.1.6",
+        "name": "Better Fabric Console",
+        "description": "Server-side Fabric mod enhancing the console with tab completions, colored log output, command syntax highlighting, command history, and more.",
+        "depends": {
+            "fabricloader": ">=0.14.6",
+            "fabric": "*",
+            "minecraft": "1.20.x",
+            "adventure-platform-fabric": "*"
+        }
+    },
+    {
+        "id": "betterf3",
+        "version": "7.0.2",
+        "name": "BetterF3",
+        "description": "Replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
+        "depends": {
+            "fabricloader": ">=0.14.9",
+            "minecraft": ">=1.20"
+        }
+    },
+    {
+        "id": "betterthirdperson",
+        "version": "1.9.0",
+        "name": "Better Third Person",
+        "description": "Adds independent camera rotation for third-person view",
+        "depends": {
+            "fabricloader": ">=0.14.6",
+            "minecraft": "~1.20",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "bettervillage",
+        "version": "3.1.0",
+        "name": "Better village",
+        "description": "This mod improves the vanilla minecraft villages !",
+        "depends": {
+            "minecraft": "~1.20",
+            "fabric-api": "*",
+            "java": ">=17",
+            "libraryferret": "4.0.0",
+            "fabricloader": ">=0.14.21"
+        }
+    },
+    {
+        "id": "caxton",
+        "version": "0.5.3+1.20.1-FABRIC",
+        "name": "Caxton",
+        "description": "Adds TTF and OTF font support to Minecraft.",
+        "depends": {
+            "fabricloader": ">=0.14.17",
+            "fabric-api": "*",
+            "minecraft": ">=1.20 <=1.20.1"
+        },
+        "breaks": {
+            "emojiful": "*",
+            "memoryleakfix": "<=1.1.1"
+        }
+    },
+    {
+        "id": "chunksfadein",
+        "version": "1.0.4-1.20.1",
+        "name": "Chunks Fade In",
+        "description": "Adds bedrock-like chunk fade-in animation and chunk animations like in ChunkAnimator mod!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "minecraft": ">=1.20.1",
+            "java": ">=17",
+            "sodium": "0.5.x"
+        }
+    },
+    {
+        "id": "collective",
+        "version": "6.66",
+        "name": "Collective",
+        "description": "Collective is a shared library with common code for all of Serilum's mods.",
+        "depends": {
+            "fabricloader": ">=0.12.6",
+            "fabric": "*",
+            "minecraft": ">=1.20",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "completeconfig",
+        "version": "2.5.0",
+        "name": "CompleteConfig",
+        "description": "Configuration library"
+    },
+    {
+        "id": "configured",
+        "version": "2.2.2",
+        "name": "Configured",
+        "description": "Creates a simple GUI config for every mod!",
+        "depends": {
+            "fabricloader": ">=0.14",
+            "fabric": "*",
+            "minecraft": "1.20.1",
+            "java": ">=17"
+        },
+        "breaks": {
+            "catalogue": "<1.2.0",
+            "framework": "<0.6.26"
+        }
+    },
+    {
+        "id": "continuity",
+        "version": "3.0.0-beta.3+1.20.1",
+        "name": "Continuity",
+        "description": "Continuity is a Fabric mod built around modern APIs to allow for the most efficient connected textures experience possible. It is designed to provide full Optifine parity for all resource packs that use the Optifine CTM format. Continuity also supports Optifine-format emissive textures for block and item models.",
+        "depends": {
+            "minecraft": ">=1.20.1",
+            "fabric": ">=0.86.0"
+        }
+    },
+    {
+        "id": "controlling",
+        "version": "12.0.2",
+        "name": "Controlling For Fabric",
+        "description": "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
+        "depends": {
+            "fabricloader": ">=0.14",
+            "java": ">=17",
+            "minecraft": "1.20.1",
+            "searchables": "1.0.x",
+            "fabric": "*"
+        }
+    },
+    {
+        "id": "ctov",
+        "version": "3.3.5a",
+        "name": "ChoiceTheorem's Overhauled Village",
+        "description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "minecraft": ">=1.20"
+        }
+    },
+    {
+        "id": "cupboard",
+        "version": "1.20.1-1.9",
+        "name": "cupboard",
+        "description": "",
+        "depends": {
+            "fabricloader": ">=0.11.3",
+            "fabric": "*",
+            "minecraft": "1.20.x",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "do_a_barrel_roll",
+        "version": "3.3.4+1.20",
+        "name": "Do a Barrel Roll",
+        "description": "Microsoft flight simulator for Minecraft elytras.",
+        "depends": {
+            "minecraft": ">=1.20- <1.20.3-",
+            "fabric-api": "*",
+            "cicada": "*"
+        },
+        "breaks": {
+            "optifabric": "*"
+        }
+    },
+    {
+        "id": "dcch",
+        "version": "1.2",
+        "name": "DCCH",
+        "description": "Don't clear chet history!",
+        "depends": {
+            "minecraft": "*"
+        }
+    },
+    {
+        "id": "elytra_physics",
+        "version": "1.3-1.20",
+        "name": "ElytraPhysics",
+        "description": "A simple mod that adds cape-like physics to the elytra when worn by the player.",
+        "depends": {
+            "minecraft": [
+                "1.19.3",
+                "1.19.4",
+                "1.20.x"
+            ]
+        }
+    },
+    {
+        "id": "fabric-api",
+        "version": "0.90.4+1.20.1",
+        "name": "Fabric API",
+        "description": "Core API module providing key hooks and intercompatibility features.",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "java": ">=17",
+            "minecraft": ">=1.20 <1.20.2-"
+        }
+    },
+    {
+        "id": "fallingleaves",
+        "version": "1.15.2+1.20.1",
+        "name": "Falling Leaves",
+        "description": "\"How the gentle wind \nbeckons through the leaves \nas autumn colors fall,\ndancing in a swirl \nof golden memories:\nthe loveliest lies of all.\"",
+        "depends": {
+            "fabricloader": ">=0.14.7",
+            "fabric": "*",
+            "minecraft": ">=1.19.4",
+            "cloth-config": ">=9.0.0",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "forgeconfigapiport",
+        "version": "8.0.0",
+        "name": "Forge Config API Port",
+        "description": "Forge's whole config system provided to the Fabric ecosystem. Designed for a multiloader architecture.",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric-api": ">=0.83.0",
+            "minecraft": "1.20.1",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "freecam",
+        "version": "1.2.1+1.20",
+        "name": "Freecam",
+        "description": "A highly customizable freecam mod.",
+        "depends": {
+            "fabricloader": ">=0.12.11",
+            "fabric": "*",
+            "minecraft": "~1.20"
+        }
+    },
+    {
+        "id": "indium",
+        "version": "1.0.27+mc1.20.1",
+        "name": "Indium",
+        "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
+        "depends": {
+            "fabricloader": ">=0.8.0",
+            "minecraft": "~1.20.1",
+            "sodium": "0.5.3",
+            "fabric-renderer-api-v1": ">=3.2.0",
+            "fabric-resource-loader-v0": ">=0.4.0"
+        }
+    },
+    {
+        "id": "iris",
+        "version": "1.6.10",
+        "name": "Iris",
+        "description": "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs",
+        "depends": {
+            "fabricloader": ">=0.12.3",
+            "minecraft": "1.20.x",
+            "sodium": "0.5.3"
+        },
+        "breaks": {
+            "iris-explorer": "*",
+            "originsenhanced": "<=1.3.2",
+            "colormatic": "<=3.0.0",
+            "bedrockwaters": "<=1.6.0",
+            "batchedentityrendering": "*",
+            "canvas": "*",
+            "optifabric": "*",
+            "worldeditcui": "<1.18.1",
+            "immersive_portals": "<=1.4.2"
+        }
+    },
+    {
+        "id": "jade",
+        "version": "11.1.4",
+        "name": "Jade",
+        "description": "Minecraft mod shows what you are looking at. (Hwyla fork)",
+        "depends": {
+            "fabricloader": ">=0.14",
+            "minecraft": ">=1.20-",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "kiwi",
+        "version": "11.1.1",
+        "name": "Kiwi Library",
+        "description": "Minecraft modding library",
+        "depends": {
+            "fabric-api": "*",
+            "minecraft": ">=1.20-",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "libraryferret",
+        "version": "4.0.0",
+        "name": "Library ferret",
+        "description": "Shared code for my mod.",
+        "depends": {
+            "minecraft": "~1.20",
+            "fabric-api": "*",
+            "java": ">=17",
+            "fabricloader": ">=0.14.21"
+        }
+    },
+    {
+        "id": "mes",
+        "version": "1.3-1.20-fabric",
+        "name": "Moog's End Structures",
+        "description": "80+ structures made with vanilla blocks and entities bringing life to your world! Discover loot, enemies, & villagers along the way!",
+        "depends": {
+            "fabricloader": ">=0.14",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "modmenu",
+        "version": "7.2.1",
+        "name": "Mod Menu",
+        "description": "Adds a mod menu to view the list of mods you have installed.",
+        "depends": {
+            "fabric-resource-loader-v0": "*",
+            "fabric-screen-api-v1": ">=1.0.4",
+            "fabric-key-binding-api-v1": "*",
+            "fabric-lifecycle-events-v1": "*",
+            "fabricloader": ">=0.12.13",
+            "minecraft": ">=1.19.4-"
+        },
+        "breaks": {
+            "better_mod_button": "*"
+        }
+    },
+    {
+        "id": "mousetweaks",
+        "version": "2.25",
+        "name": "Mouse Tweaks",
+        "description": "A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": "*",
+            "minecraft": "~1.20",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "mousetweaks",
+        "version": "2.25",
+        "name": "Mouse Tweaks",
+        "description": "A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": "*",
+            "minecraft": "~1.20",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "physicsmod",
+        "version": "3.0.5",
+        "name": "Physics Mod",
+        "description": "Welcome to a more destructive Minecraft then you've ever seen before!",
+        "depends": {
+            "fabricloader": ">=0.14.14",
+            "minecraft": ">=1.19.3",
+            "fabric-api": ">=0.75",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "pickupnotifier",
+        "version": "8.0.0",
+        "name": "Pick Up Notifier",
+        "description": "Be notified about all the things you've just collected.",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric-api": ">=0.83.0",
+            "puzzleslib": ">=8.0.0",
+            "minecraft": "1.20.1",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "puzzleslib",
+        "version": "8.0.24",
+        "name": "Puzzles Lib",
+        "description": "Why's it called Puzzles you ask? That's the puzzle!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric-api": ">=0.86.0",
+            "forgeconfigapiport": "*",
+            "minecraft": "1.20.1",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "reeses-sodium-options",
+        "version": "1.6.5+mc1.20.1-build.95",
+        "name": "Reese's Sodium Options",
+        "description": "Replaces Sodium's Options Screen",
+        "depends": {
+            "minecraft": "1.20.x",
+            "sodium": "*"
+        },
+        "breaks": {
+            "iris": "<1.1.4",
+            "sodium-extra": "<0.4.1",
+            "sodium": "<0.5.0"
+        }
+    },
+    {
+        "id": "searchables",
+        "version": "1.0.2",
+        "name": "Searchables",
+        "description": "A library mod to facilitate adding search bars with auto complete and search types.",
+        "depends": {
+            "fabricloader": ">=0.14",
+            "java": ">=17",
+            "minecraft": "1.20.1"
+        }
+    },
+    {
+        "id": "showmeyourskin",
+        "version": "1.6.11+1.20",
+        "name": "Show Me Your Skin!",
+        "description": "A mod to hide or customize armor rendering.",
+        "depends": {
+            "fabric-api": "*",
+            "minecraft": ">=1.20- <1.20.2-",
+            "cicada": "*",
+            "cardinal-components-base": "*",
+            "cardinal-components-entity": "*"
+        }
+    },
+    {
+        "id": "skyvillages",
+        "version": "1.0.3.1-1.19.2-1.20.1",
+        "name": "Sky Villages",
+        "description": "Yes, that's right! Villages in the land of clouds! Explore massive and beautiful villages in the sky! These villages generate entirely randomly on your world, and each of these sky towns will have a distinctive and unique look!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "minecraft": ">=1.19.2",
+            "java": ">=17",
+            "fabric-api": "*"
+        }
+    },
+    {
+        "id": "sodium-extra",
+        "version": "0.5.1+mc1.20.1-build.112",
+        "name": "Sodium Extra",
+        "description": "Features that shouldn't be in Sodium.",
+        "depends": {
+            "fabricloader": ">=0.14",
+            "fabric-api": "*",
+            "sodium": ">=0.5.1",
+            "minecraft": ">=1.20"
+        },
+        "breaks": {
+            "reeses-sodium-options": "<1.4.2"
+        }
+    },
+    {
+        "id": "sodium",
+        "version": "0.5.3",
+        "name": "Sodium",
+        "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
+        "depends": {
+            "minecraft": "1.20.1",
+            "fabricloader": ">=0.12.0",
+            "fabric-rendering-data-attachment-v1": ">=0.1",
+            "fabric-rendering-fluids-v1": ">=0.1"
+        },
+        "breaks": {
+            "optifabric": "*",
+            "canvas": "*",
+            "sodium-blendingregistry": "*",
+            "ocrenderfix_sodium": "*",
+            "betterfpsdist": "<1.20.1-3.8",
+            "bobby": "<5.0.1",
+            "cauldron_dyeing": "<1.0.11",
+            "cullleaves": "<=3.1.0",
+            "custom_hud": "<=3.1.0+1.20",
+            "dashloader": "<5.0.0-beta.2",
+            "farsight": "<1.20.1-4.0",
+            "fluidvoidfading": "<1.1.2",
+            "iceberg": "<1.1.14",
+            "iris": "<1.6.7",
+            "immersive_portals": "<=3.2.5",
+            "indium": "<1.0.24",
+            "notenoughcrashes": "<4.4.6",
+            "noxesium": "<1.0.2",
+            "rayon": "<=1.7.2+1.20.1",
+            "reeses-sodium-options": "<1.6.4",
+            "sodium-extra": "<0.5.1",
+            "sspb": "<3.2.0"
+        }
+    },
+    {
+        "id": "swordblocking",
+        "version": "1.3.1",
+        "name": "Sword Blocking",
+        "description": "Adds sword blocking to new versions, you just need a shield in your offhand!",
+        "depends": {
+            "fabric-api": "*",
+            "midnightlib": "*"
+        }
+    },
+    {
+        "id": "tia",
+        "version": "1.20-1.1",
+        "name": "Tiny Item Animations",
+        "description": "Adds a cute little animation when picking up items with your mouse.",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "java": ">=17"
+        }
+    },
+    {
+        "id": "tiptapshow",
+        "version": "1.3.1+1.20.1",
+        "name": "TipTapShow",
+        "description": "A mod to show your keystrokes ingame"
+    },
+    {
+        "id": "uglyscoreboardfix",
+        "version": "2.10.0",
+        "name": "Ugly Scoreboard Fix",
+        "description": "Scoreboard sidebar modifications",
+        "depends": {
+            "java": ">=17",
+            "fabricloader": ">=0.11.3",
+            "completeconfig-base": "^2.0.0"
+        }
+    },
+    {
+        "id": "villagespawnpoint",
+        "version": "4.0",
+        "name": "Village Spawn Point",
+        "description": "Sets the spawn point of a new world to always be in the center of a village.",
+        "depends": {
+            "fabricloader": ">=0.12.5",
+            "fabric": "*",
+            "minecraft": ">=1.20",
+            "java": ">=17",
+            "collective": ">=6.57"
+        }
+    },
+    {
+        "id": "visiblebarriers",
+        "version": "2.0.8",
+        "name": "Visible Barriers",
+        "description": "Various tools for Minecraft Mapmaking.",
+        "depends": {
+            "fabric": "*"
+        }
+    },
+    {
+        "id": "worldedit",
+        "version": "7.2.15+6463-5ca4dff",
+        "name": "WorldEdit",
+        "description": "WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single- and multi-player.",
+        "depends": {
+            "fabricloader": ">=0.4.0",
+            "fabric-api-base": "*",
+            "fabric-command-api-v2": "*",
+            "fabric-lifecycle-events-v1": "*",
+            "fabric-events-interaction-v0": "*",
+            "fabric-networking-api-v1": "*"
+        }
+    },
+    {
+        "id": "wurst",
+        "version": "v7.39.1-MC1.20.1",
+        "name": "Wurst Client",
+        "description": "Wurst Wurst Wurst!",
+        "depends": {
+            "fabricloader": ">=0.14.19",
+            "fabric-api": ">=0.81.2",
+            "minecraft": "~1.20-beta.2",
+            "java": ">=17"
+        },
+        "breaks": {
+            "wi_zoom": "*",
+            "wi-zoom": "*"
+        }
+    },
+    {
+        "id": "xaerominimap",
+        "version": "23.7.0",
+        "name": "Xaero's Minimap",
+        "description": "The most vanilla-looking minimap for Minecraft.",
+        "depends": {
+            "minecraft": ">1.19.4",
+            "fabric-api": ">=0.43.1",
+            "fabricloader": ">=0.13.0"
+        },
+        "breaks": {
+            "openpartiesandclaims": "<0.14.0"
+        }
+    },
+    {
+        "id": "yet_another_config_lib_v3",
+        "version": "3.2.1+1.20",
+        "name": "YetAnotherConfigLib",
+        "description": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.",
+        "depends": {
+            "fabricloader": ">=0.14.0",
+            "minecraft": ">1.20-",
+            "java": ">=17",
+            "fabric-resource-loader-v0": "*"
+        }
+    },
+    {
+        "id": "yungsapi",
+        "version": "1.20-Fabric-4.0.2",
+        "name": "YUNG's API",
+        "description": "API Library for YUNG's minecraft mods.",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20"
+        }
+    },
+    {
+        "id": "betterdeserttemples",
+        "version": "1.20-Fabric-3.0.3",
+        "name": "YUNG's Better Desert Temples",
+        "description": "A complete redesign of Minecraft's desert temples!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "betterdungeons",
+        "version": "1.20-Fabric-4.0.3",
+        "name": "YUNG's Better Dungeons",
+        "description": "A complete redesign of Minecraft's dungeons",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "betterendisland",
+        "version": "1.20-Fabric-2.0.4",
+        "name": "YUNG's Better End Island",
+        "description": "A complete redesign of the End island, making the Ender Dragon fight much more fun and interesting!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "betterjungletemples",
+        "version": "1.20-Fabric-2.0.4",
+        "name": "YUNG's Better Jungle Temples",
+        "description": "A complete redesign of Minecraft's Jungle Temples!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "bettermineshafts",
+        "version": "1.20-Fabric-4.0.4",
+        "name": "YUNG's Better Mineshafts",
+        "description": "The long-awaited and much-needed abandoned mineshaft overhaul!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "betterfortresses",
+        "version": "1.20-Fabric-2.0.5",
+        "name": "YUNG's Better Nether Fortresses",
+        "description": "A complete redesign of Minecraft's Nether Fortresses!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "betteroceanmonuments",
+        "version": "1.20-Fabric-3.0.3",
+        "name": "YUNG's Better Ocean Monuments",
+        "description": "A complete redesign of Minecraft's ocean monuments!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "betterstrongholds",
+        "version": "1.20-Fabric-4.0.3",
+        "name": "YUNG's Better Strongholds",
+        "description": "A complete redesign of Minecraft's strongholds!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "betterwitchhuts",
+        "version": "1.20-Fabric-3.0.3",
+        "name": "YUNG's Better Witch Huts",
+        "description": "Adds new and improved witch huts to swamps!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "yungsbridges",
+        "version": "1.20-Fabric-4.0.3",
+        "name": "YUNG's Bridges",
+        "description": "Adds naturally occurring bridges throughout the world!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    },
+    {
+        "id": "yungsextras",
+        "version": "1.20-Fabric-4.0.3",
+        "name": "YUNG's Extras",
+        "description": "Extra structures and vanilla+ content added throughout the game!",
+        "depends": {
+            "fabricloader": ">=0.14.21",
+            "fabric": ">=0.83.0",
+            "minecraft": ">=1.20",
+            "cloth-config2": ">=11.0.99",
+            "java": ">=17",
+            "yungsapi": ">=1.20-Fabric-4.0.1"
+        }
+    }
+]
