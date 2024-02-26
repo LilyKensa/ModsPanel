@@ -32,8 +32,8 @@ function versionString(version) {
 }
 var list = function (arr) { return Object.keys(arr).map(function (k) { return "<code>" + k + versionString(arr[k]) + "</code>"; }).join(", "); };
 var template = function (_a) {
-    var id = _a.id, version = _a.version, name = _a.name, description = _a.description, depends = _a.depends, breaks = _a.breaks;
-    return "\n  <div class=\"modslist-item position-relative\">\n    <code>" + id + "@" + version + "</code>\n    <h2 class=\"my-3\">" + capitalize(name) + "</h2>\n    <p>" + description + "</p>\n    " + (depends ? /* html */ "\n    <p>\n      Dependencies: " + list(depends) + "\n    </p>\n    " : "") + "\n    " + (breaks ? /* html */ "\n    <p>\n      Incompatibilities: " + list(breaks) + "\n    </p>\n    " : "") + "\n  </div>\n";
+    var filename = _a.filename, id = _a.id, version = _a.version, name = _a.name, description = _a.description, author = _a.author, depends = _a.depends, breaks = _a.breaks;
+    return "\n  <div class=\"modslist-item position-relative\">\n    <div>\n      <code>" + filename + "</code>\n      &nbsp;\u00B7&nbsp;\n      <code>" + author + "</code>\n      &nbsp;-&nbsp;\n      <code>" + id + "@" + version + "</code>\n    </div>\n    <h2 class=\"my-3\">" + capitalize(name) + "</h2>\n    <p>" + description + "</p>\n    " + (depends ? /* html */ "\n    <p>\n      Dependencies: " + list(depends) + "\n    </p>\n    " : "") + "\n    " + (breaks ? /* html */ "\n    <p>\n      Incompatibilities: " + list(breaks) + "\n    </p>\n    " : "") + "\n  </div>\n";
 };
 fetch("/get_modslist", { method: "GET" }).then(function (response) { return response.json(); }).then(function (modsList) {
     // console.log(modsList);

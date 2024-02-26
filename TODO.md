@@ -6,6 +6,7 @@
 ## Features to Add
 
 - Enable / Disable / Delete Buttons
+- Search Bar
 
 ## Known Issues
 

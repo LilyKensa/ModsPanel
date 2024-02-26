@@ -80,10 +80,12 @@ function reloadModsList() {
                             .map(function (v, i) { return i % 2 ? v.replace(/\r\n|\r|\n/g, "\\n") : v; })
                             .join("\"")]);
                     modsList.push({
+                        filename: file,
                         id: modData.id,
                         version: modData.version,
                         name: modData.name,
                         description: modData.description,
+                        author: modData.authors[0],
                         depends: modData.depends,
                         breaks: modData.breaks
                     });

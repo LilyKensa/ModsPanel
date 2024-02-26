@@ -1,18 +1,22 @@
 [
     {
+        "filename": "3dskinlayers-fabric-1.5.4-mc1.20.1.jar",
         "id": "skinlayers",
         "version": "1.5.4-mc1.20.1",
         "name": "3d Skin Layers",
         "description": "Renders the player skin layer in 3d",
+        "author": "tr7zw",
         "depends": {
             "minecraft": ">=1.20-rc.1"
         }
     },
     {
+        "filename": "appleskin-fabric-mc1.20.1-2.5.1.jar",
         "id": "appleskin",
         "version": "2.5.1+mc1.20",
         "name": "AppleSkin",
         "description": "Adds various food-related HUD improvements",
+        "author": "squeek502",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": "*"
@@ -22,10 +26,12 @@
         }
     },
     {
+        "filename": "aquatictorches-1.20.1-fabric-1.0.1.jar",
         "id": "aquatictorches",
         "version": "1.0.1",
         "name": "Aquatic Torches",
         "description": "Torches made from glowing squids that can be used underwater!",
+        "author": "realmayus",
         "depends": {
             "fabricloader": ">=0.14.6",
             "fabric": "*",
@@ -34,10 +40,12 @@
         }
     },
     {
+        "filename": "architectury-9.1.12-fabric.jar",
         "id": "architectury",
         "version": "9.1.12",
         "name": "Architectury",
         "description": "A intermediary api aimed to ease developing multiplatform mods.",
+        "author": "shedaniel",
         "depends": {
             "minecraft": "~1.20-",
             "fabricloader": ">=0.14.0",
@@ -48,10 +56,12 @@
         }
     },
     {
+        "filename": "automated-crafting-1.4.15-1+MC1.20.1.jar",
         "id": "automated_crafting",
         "version": "1.4.15-1",
         "name": "Automated Crafting",
         "description": "Adds a simple autocrafter block. Has a simple mode and a... not simple mode.",
+        "author": "supersaiyansubtlety",
         "depends": {
             "fabricloader": ">=0.13.3",
             "fabric": ">=0.56.1+1.19",
@@ -59,10 +69,12 @@
         }
     },
     {
+        "filename": "autoswitch-7.0.2.jar",
         "id": "autoswitch",
         "version": "7.0.2",
         "name": "AutoSwitch",
         "description": "Automatic switching of tools on the hotbar to the best one for the job.",
+        "author": "Deximus-Maximus",
         "depends": {
             "fabricloader": ">=0.11.3",
             "fabric-key-binding-api-v1": ">=1.0.0",
@@ -76,10 +88,12 @@
         }
     },
     {
+        "filename": "BeaconOverhaul-1.8.4+1.20.jar",
         "id": "beaconoverhaul",
         "version": "1.8.4+1.20",
         "name": "Beacon Overhaul",
         "description": "Introduces a tier system and better effect scaling for beacons\n- Adds night vision, fire resistance, §onutrition§r, §olong reach§r, and slow falling as beacon effects\n- Adds a tier system for beacons, with diamond and netherite structures providing progressively increased effect potency\n- Adds a higher potency of night vision, allowing the player to see everything with midday lighting (full bright) and no fog effects\n- Adds 2 new effects to the game, Long Reach, increasing interaction reach, and Nutrition, passively restoring food levels\n- Adds a dropping mechanic to slow falling, allowing sneaking to cause a fall at normal velocity whilst still negating damage\n- Adds an increased step height to jump boost, allowing the player to step up blocks instantaneously when the effect is applied §8(Note: Auto-jump takes precedence, and will need to be disabled for this to have any effect)§r",
+        "author": "Chloe Dawn",
         "depends": {
             "fabric-api-base": ">=0.4.29",
             "fabric-networking-api-v1": ">=1.3.8",
@@ -91,10 +105,12 @@
         }
     },
     {
+        "filename": "better-fabric-console-mc1.20.1-1.1.6.jar",
         "id": "better-fabric-console",
         "version": "1.1.6",
         "name": "Better Fabric Console",
         "description": "Server-side Fabric mod enhancing the console with tab completions, colored log output, command syntax highlighting, command history, and more.",
+        "author": "jmp",
         "depends": {
             "fabricloader": ">=0.14.6",
             "fabric": "*",
@@ -103,20 +119,24 @@
         }
     },
     {
+        "filename": "BetterF3-7.0.2-Fabric-1.20.1.jar",
         "id": "betterf3",
         "version": "7.0.2",
         "name": "BetterF3",
         "description": "Replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
+        "author": "cominixo",
         "depends": {
             "fabricloader": ">=0.14.9",
             "minecraft": ">=1.20"
         }
     },
     {
+        "filename": "BetterThirdPerson-Fabric-1.20-1.9.0.jar",
         "id": "betterthirdperson",
         "version": "1.9.0",
         "name": "Better Third Person",
         "description": "Adds independent camera rotation for third-person view",
+        "author": "Socolio",
         "depends": {
             "fabricloader": ">=0.14.6",
             "minecraft": "~1.20",
@@ -124,10 +144,12 @@
         }
     },
     {
+        "filename": "bettervillage-fabric-1.20.1-3.2.0.jar",
         "id": "bettervillage",
         "version": "3.1.0",
         "name": "Better village",
         "description": "This mod improves the vanilla minecraft villages !",
+        "author": "JTorLeon Studios",
         "depends": {
             "minecraft": "~1.20",
             "fabric-api": "*",
@@ -137,10 +159,12 @@
         }
     },
     {
+        "filename": "bigger_end_cities-1.20.1-1.0.4.jar",
         "id": "bigendcitiesmod",
         "version": "1.20.1-1.0.4",
         "name": "Bigger Better End Cities",
         "description": "Majorly increases the size of end cities. with config.",
+        "author": "architects",
         "depends": {
             "fabricloader": ">=0.14.19",
             "fabric-api": "*",
@@ -149,19 +173,23 @@
         }
     },
     {
+        "filename": "blossom-blade-1.0.jar",
         "id": "mr_blossom_blade",
         "version": "1.0",
         "name": "Blossom Blade",
         "description": "Adds a new structure to cherry groves which contains an enchanted sword with Smite and Sharpness.",
+        "author": "joshieman06",
         "depends": {
             "fabric-resource-loader-v0": "*"
         }
     },
     {
+        "filename": "blossom-homes-2.2.1+1.20.jar",
         "id": "blossom-homes",
         "version": "2.2.1+1.20",
         "name": "BlossomHomes",
         "description": "Blossom-series /homes command and utilities",
+        "author": "CodedSakura",
         "depends": {
             "fabricloader": ">=0.14.3",
             "minecraft": [
@@ -173,10 +201,12 @@
         }
     },
     {
+        "filename": "blossom-lib-2.5.4+1.20.jar",
         "id": "blossom-lib",
         "version": "2.5.4+1.20",
         "name": "BlossomLib",
         "description": "Library mod for Blossom-series Fabric mods",
+        "author": "CodedSakura",
         "depends": {
             "fabricloader": ">=0.14.7",
             "fabric": "*",
@@ -187,10 +217,12 @@
         }
     },
     {
+        "filename": "blossom-tpa-2.2.1+1.20.jar",
         "id": "blossom-tpa",
         "version": "2.2.1+1.20",
         "name": "BlossomTpa",
         "description": "Blossom-series /tpa command and utilities",
+        "author": "CodedSakura",
         "depends": {
             "fabricloader": ">=0.14.3",
             "minecraft": [
@@ -202,10 +234,12 @@
         }
     },
     {
+        "filename": "bygonenether-1.20-1.3.2.jar",
         "id": "bygonenether",
         "version": "1.3.2",
         "name": "Bygone Nether",
         "description": "Adds new biome-specific structures and mobs to the nether dimension",
+        "author": "Izofar",
         "depends": {
             "fabricloader": ">=0.14.9",
             "fabric-api": "*",
@@ -214,10 +248,12 @@
         }
     },
     {
+        "filename": "campchair.fabric.1.20-1.0.3.jar",
         "id": "campchair",
         "version": "1.0.3",
         "name": "Camp Chair",
         "description": "Camp Chairs!\nA lot of Camp Chairs!\nEven colored Camp Chairs!",
+        "author": "DmitryLovin!",
         "depends": {
             "fabricloader": ">=0.14.6",
             "fabric": "*",
@@ -226,16 +262,25 @@
         }
     },
     {
+        "filename": "cardinal-components-api-5.2.2.jar",
         "id": "cardinal-components",
         "version": "5.2.2",
         "name": "Cardinal Components API",
-        "description": "Attaching more data to various game objects"
+        "description": "Attaching more data to various game objects",
+        "author": {
+            "name": "UpcraftLP",
+            "contact": {
+                "homepage": "https://twitter.com/UpcraftLP"
+            }
+        }
     },
     {
+        "filename": "carryon-fabric-1.20.1-2.1.2.7.jar",
         "id": "carryon",
         "version": "2.1.2.7",
         "name": "Carry On",
         "description": "Carry On is a simple mod that improves game interaction by allowing players to pick up, carry, and place single block Tile Entities using only their empty hands.",
+        "author": "Tschipp",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric-api": "*",
@@ -244,10 +289,12 @@
         }
     },
     {
+        "filename": "caxton-0.5.3+1.20.1-FABRIC.jar",
         "id": "caxton",
         "version": "0.5.3+1.20.1-FABRIC",
         "name": "Caxton",
         "description": "Adds TTF and OTF font support to Minecraft.",
+        "author": "+merlan #flirora",
         "depends": {
             "fabricloader": ">=0.14.17",
             "fabric-api": "*",
@@ -259,10 +306,12 @@
         }
     },
     {
+        "filename": "charmofundying-fabric-6.4.5+1.20.1.jar",
         "id": "charmofundying",
         "version": "6.4.5+1.20.1",
         "name": "Charm of Undying",
         "description": "Adds accessory support for the Totem of Undying, so you don't have to be holding it.",
+        "author": "Illusive Soulworks",
         "depends": {
             "fabricloader": ">=0.14.23",
             "fabric": "*",
@@ -272,10 +321,12 @@
         }
     },
     {
+        "filename": "chefs-delight-1.0.3-fabric-1.20.1.jar",
         "id": "chefsdelight",
         "version": "1.0.3-fabric-1.20.1",
         "name": "Chefs Delight",
         "description": "Add-on for Farmer's Delight Mod. Adds 2 new professions to villagers. Chef and Cook.",
+        "author": "Redstone Games",
         "depends": {
             "fabricloader": ">=0.14.22",
             "minecraft": "~1.20.1",
@@ -284,10 +335,12 @@
         }
     },
     {
+        "filename": "chunksfadein-v1.0.4-1.20.1.jar",
         "id": "chunksfadein",
         "version": "1.0.4-1.20.1",
         "name": "Chunks Fade In",
         "description": "Adds bedrock-like chunk fade-in animation and chunk animations like in ChunkAnimator mod!",
+        "author": "Koteinik",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": ">=1.20.1",
@@ -296,10 +349,12 @@
         }
     },
     {
+        "filename": "ClassicSwordBlocking-Fabric-1.20-1.0.6.jar",
         "id": "sword_block",
         "version": "1.0.6",
         "name": "Classic Sword Blocking",
         "description": "This mod adds the ability of blocking with a sword.",
+        "author": "ji_GGO",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20",
@@ -307,30 +362,36 @@
         }
     },
     {
+        "filename": "cloth-config-11.1.118-fabric.jar",
         "id": "cloth-config",
         "version": "11.1.118",
         "name": "Cloth Config v11",
         "description": "An API for config screens.",
+        "author": "shedaniel",
         "depends": {
             "fabricloader": ">=0.14.0",
             "minecraft": ">=1.20-"
         }
     },
     {
+        "filename": "Clumps-fabric-1.20.1-12.0.0.3.jar",
         "id": "clumps",
         "version": "12.0.0.3",
         "name": "Clumps",
         "description": "Clumps xp orbs together.",
+        "author": "Jaredlll08",
         "depends": {
             "fabricloader": ">=0.14",
             "minecraft": "1.20.1"
         }
     },
     {
+        "filename": "collective-1.20.1-7.30.jar",
         "id": "collective",
         "version": "7.30",
         "name": "Collective",
         "description": "Collective is a shared library with common code for all of Serilum's mods.",
+        "author": "Rick South",
         "depends": {
             "fabricloader": ">=0.12.6",
             "fabric": "*",
@@ -339,10 +400,12 @@
         }
     },
     {
+        "filename": "comforts-fabric-6.3.4+1.20.1.jar",
         "id": "comforts",
         "version": "6.3.4+1.20.1",
         "name": "Comforts",
         "description": "Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns.\nComes in 16 different colors!",
+        "author": "Illusive Soulworks",
         "depends": {
             "fabricloader": ">=0.14.23",
             "fabric-api": "*",
@@ -353,16 +416,20 @@
         }
     },
     {
+        "filename": "completeconfig-2.5.0.jar",
         "id": "completeconfig",
         "version": "2.5.0",
         "name": "CompleteConfig",
-        "description": "Configuration library"
+        "description": "Configuration library",
+        "author": "Lortseam"
     },
     {
+        "filename": "configurablefurnaceburntime-1.20.1-2.3.jar",
         "id": "configurablefurnaceburntime",
         "version": "2.3",
         "name": "Configurable Furnace Burn Time",
         "description": "Allows users to change the fuel burn time in a furnace globally via a config.",
+        "author": "Rick South",
         "depends": {
             "fabricloader": ">=0.12.5",
             "fabric": "*",
@@ -372,10 +439,12 @@
         }
     },
     {
+        "filename": "configured-fabric-1.20.1-2.2.2.jar",
         "id": "configured",
         "version": "2.2.2",
         "name": "Configured",
         "description": "Creates a simple GUI config for every mod!",
+        "author": "MrCrayfish",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric": "*",
@@ -388,20 +457,24 @@
         }
     },
     {
+        "filename": "continuity-3.0.0-beta.4+1.20.1.jar",
         "id": "continuity",
         "version": "3.0.0-beta.4+1.20.1",
         "name": "Continuity",
         "description": "Continuity is a Fabric mod that allows resource packs that use the OptiFine connected textures format, OptiFine emissive textures format (only for blocks and item models), or OptiFine custom block layers format to work without OptiFine.",
+        "author": "PepperCode1",
         "depends": {
             "minecraft": "1.20.1",
             "fabric": ">=0.88.1"
         }
     },
     {
+        "filename": "Controlling-fabric-1.20.1-12.0.2.jar",
         "id": "controlling",
         "version": "12.0.2",
         "name": "Controlling For Fabric",
         "description": "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
+        "author": "Jaredlll08",
         "depends": {
             "fabricloader": ">=0.14",
             "java": ">=17",
@@ -411,10 +484,12 @@
         }
     },
     {
+        "filename": "copperhopper-0.5.1+1.20.1.jar",
         "id": "copperhopper",
         "version": "0.5.1+1.20.1",
         "name": "Copper Hopper",
         "description": "Vanilla-friendly item filtering.",
+        "author": "pcal.net",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -423,10 +498,12 @@
         }
     },
     {
+        "filename": "cratedelight-1.2.7-1.20.1.jar",
         "id": "cratedelight",
         "version": "1.2.7",
         "name": "Crate Delight",
         "description": "An addon mod for Farmer's Delight that adds more crates to the base mod.",
+        "author": "Axperty",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -436,30 +513,36 @@
         }
     },
     {
+        "filename": "cristellib-1.1.5-fabric.jar",
         "id": "cristellib",
         "version": "1.1.5",
         "name": "Cristel Lib",
         "description": "A Library mod for easy structure config and runtime datapacks.",
+        "author": "Cristelknight999",
         "depends": {
             "fabric": ">=0.81.0+1.19.4",
             "minecraft": "1.20.1"
         }
     },
     {
+        "filename": "ctov-3.3.6.jar",
         "id": "ctov",
         "version": "3.3.6",
         "name": "ChoiceTheorem's Overhauled Village",
         "description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
+        "author": "ChoiceTheorem",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": ">=1.20"
         }
     },
     {
+        "filename": "cupboard-fabric-1.20.1-2.2.jar",
         "id": "cupboard",
         "version": "1.20.1-2.2",
         "name": "cupboard",
         "description": "",
+        "author": "Someaddon",
         "depends": {
             "fabricloader": ">=0.11.3",
             "fabric": "*",
@@ -468,10 +551,12 @@
         }
     },
     {
+        "filename": "customizableelytra-fabric-2.1.1+1.20.jar",
         "id": "customizableelytra",
         "version": "2.1.1+1.20",
         "name": "Customizable Elytra",
         "description": "Adds a variety of colorful ways to customize your elytra!",
+        "author": "Hidoni",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric": "*",
@@ -483,10 +568,12 @@
         }
     },
     {
+        "filename": "darkfeather-fabric-1.20.1-1.0.2.jar",
         "id": "darkfeather",
         "version": "1.0.2",
         "name": "DarkFeather - Golden Feather",
         "description": "Craft a Golden Feather and gain Slow Falling, Absorption, and Haste.",
+        "author": "GamerPotion",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -495,19 +582,23 @@
         }
     },
     {
+        "filename": "dcch-1.3.jar",
         "id": "dcch",
         "version": "1.2",
         "name": "DCCH",
         "description": "Don't clear chet history!",
+        "author": "anar4732",
         "depends": {
             "minecraft": "*"
         }
     },
     {
+        "filename": "deeperdarker-fabric-1.20-1.2.5.jar",
         "id": "deeperdarker",
         "version": "1.2.5",
         "name": "Deeper and Darker",
         "description": "A Minecraft 1.20 mod which features more blocks, items, armors, and hidden mysteries to complement the Deep Dark biome.",
+        "author": "Kyanite Mods",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20",
@@ -517,10 +608,12 @@
         }
     },
     {
+        "filename": "diggusmaximus-1.5.9-1.20.jar",
         "id": "diggusmaximus",
         "version": "1.5.9-1.20",
         "name": "Diggus Maximus",
         "description": "Mine ores more better!",
+        "author": "kyrptonaught",
         "depends": {
             "fabricloader": ">=0.12.5",
             "fabric": "*",
@@ -528,10 +621,12 @@
         }
     },
     {
+        "filename": "DistractingTrims-Fabric-1.20.1-2.0.3.jar",
         "id": "distractingtrims",
         "version": "2.0.3",
         "name": "DistractingTrims",
         "description": "Golden armor trims distract piglins from attacking you.",
+        "author": "Darkhax",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -540,10 +635,12 @@
         }
     },
     {
+        "filename": "djvillager-fabric-1.20.1-v1.0.6.jar",
         "id": "djvillager",
         "version": "1.0.6",
         "name": "DJ Villager Mod",
         "description": "This mod adds a new villager profession, DJ Villager! DJ Villager sells music discs.",
+        "author": "Exline",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -552,10 +649,12 @@
         }
     },
     {
+        "filename": "do-a-barrel-roll-3.3.7+1.20-fabric.jar",
         "id": "do_a_barrel_roll",
         "version": "3.3.7+1.20",
         "name": "Do a Barrel Roll",
         "description": "Microsoft flight simulator for Minecraft elytras.",
+        "author": "enjarai",
         "depends": {
             "minecraft": ">=1.20- <1.20.2-",
             "fabric-api": "*",
@@ -566,19 +665,23 @@
         }
     },
     {
+        "filename": "dungeons-and-taverns-3.0.3 [Fabric].jar",
         "id": "mr_dungeons_andtaverns",
         "version": "3.0.3",
         "name": "Dungeons and Taverns",
         "description": "A Structure Datapack adding dungeons, taverns and other structures to find while you explore the world.",
+        "author": "NovaWostra",
         "depends": {
             "fabric-resource-loader-v0": "*"
         }
     },
     {
+        "filename": "EasyMagic-v8.0.1-1.20.1-Fabric.jar",
         "id": "easymagic",
         "version": "8.0.1",
         "name": "Easy Magic",
         "description": "Enchanting tables as they always should have been! Items stay after closing, and easy re-rolls.",
+        "author": "Fuzs",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": ">=0.83.0",
@@ -588,10 +691,12 @@
         }
     },
     {
+        "filename": "elytraslot-fabric-6.3.0+1.20.1.jar",
         "id": "elytraslot",
         "version": "6.3.0+1.20.1",
         "name": "Elytra Slot",
         "description": "Adds an accessory slot for the elytra, so you can fly and wear chest armor at the same time.",
+        "author": "Illusive Soulworks",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric": "*",
@@ -601,10 +706,12 @@
         }
     },
     {
+        "filename": "elytra_physics-fabric-2.0.jar",
         "id": "elytra_physics",
         "version": "2.0",
         "name": "Elytra Physics",
         "description": "A simple mod that adds cape-like physics to the elytra when worn by the player.",
+        "author": "ImJoshh_",
         "depends": {
             "minecraft": [
                 "1.19.3",
@@ -614,10 +721,12 @@
         }
     },
     {
+        "filename": "EndsPhantasm-1.20.1-0.1.jar",
         "id": "phantasm",
         "version": "0.1",
         "name": "End's Phantasm",
         "description": "The vanilla friendly End update we where all waiting for",
+        "author": "Lyof",
         "depends": {
             "fabricloader": ">=0.14.22",
             "minecraft": "~1.20.1",
@@ -626,10 +735,12 @@
         }
     },
     {
+        "filename": "ends_delight-fabric-1.20.1-1.0.1.jar",
         "id": "ends_delight",
         "version": "1.0.1",
         "name": "End's Delight",
         "description": "An addon mod for Farmer's Delight based around adding culinary content to the end!",
+        "author": "FoggyHillside",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20.1",
@@ -639,10 +750,18 @@
         }
     },
     {
+        "filename": "entity_model_features_fabric_1.20.1-1.2.3.jar",
         "id": "entity_model_features",
         "version": "1.2.3",
         "name": "Entity Model Features",
         "description": "This is an expansion of the ETF mod, it adds support for OptiFine format Custom Entity Model (CEM) resource packs.\nWhile still allowing you to disable this to use a different model mod :)",
+        "author": {
+            "name": "Traben",
+            "contact": {
+                "homepage": "https://www.curseforge.com/members/traben_0/projects",
+                "discord": "https://discord.gg/rURmwrzUcz"
+            }
+        },
         "depends": {
             "fabricloader": ">=0.14",
             "minecraft": ">=1.20",
@@ -654,20 +773,30 @@
         }
     },
     {
+        "filename": "entity_texture_features_fabric_1.20.1-5.2.3.jar",
         "id": "entity_texture_features",
         "version": "5.2.3",
         "name": "Entity Texture Features",
         "description": "Adds support for resource-pack driven features for entity textures including some OptiFine features\nSupports OptiFine:\n - Random & Custom textures\n - Emissive textures\nWith more features such as:\n - Blinking textures\n - Player Skin support",
+        "author": {
+            "name": "Traben",
+            "contact": {
+                "homepage": "https://www.curseforge.com/members/traben_0/projects",
+                "discord": "https://discord.gg/rURmwrzUcz"
+            }
+        },
         "depends": {
             "fabricloader": ">=0.14.0",
             "minecraft": ">=1.20 <1.20.2"
         }
     },
     {
+        "filename": "ExplorersCompass-1.20.1-2.2.3-fabric.jar",
         "id": "explorerscompass",
         "version": "1.20.1-2.2.3-fabric",
         "name": "Explorer's Compass",
         "description": "Search for and locate structures anywhere in the world.",
+        "author": "ChaosTheDude",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -676,20 +805,24 @@
         }
     },
     {
+        "filename": "explorify-v1.3.0-mc1.20.jar",
         "id": "explorify",
         "version": "v1.3.0-mc1.20",
         "name": "Explorify",
         "description": "A collection of new dungeons and structures",
+        "author": "bebebea_loste",
         "depends": {
             "fabric-resource-loader-v0": "*",
             "minecraft": "<=1.20.9"
         }
     },
     {
+        "filename": "fabric-api-0.90.4+1.20.1.jar",
         "id": "fabric-api",
         "version": "0.90.4+1.20.1",
         "name": "Fabric API",
         "description": "Core API module providing key hooks and intercompatibility features.",
+        "author": "FabricMC",
         "depends": {
             "fabricloader": ">=0.14.21",
             "java": ">=17",
@@ -697,19 +830,23 @@
         }
     },
     {
+        "filename": "fabric-language-kotlin-1.10.17+kotlin.1.9.22.jar",
         "id": "fabric-language-kotlin",
         "version": "1.10.17+kotlin.1.9.22",
         "name": "Fabric Language Kotlin",
         "description": "Fabric language module for Kotlin.",
+        "author": "FabricMC",
         "depends": {
             "fabricloader": ">=0.14.24"
         }
     },
     {
+        "filename": "fabricskyboxes-0.7.3+mc1.20.1.jar",
         "id": "fabricskyboxes",
         "version": "0.7.3+mc1.20.1",
         "name": "FabricSkyBoxes",
         "description": "Adds custom skybox support to MC",
+        "author": "AMereBagatelle",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric": "*",
@@ -717,10 +854,12 @@
         }
     },
     {
+        "filename": "fallingleaves-1.15.2+1.20.1.jar",
         "id": "fallingleaves",
         "version": "1.15.2+1.20.1",
         "name": "Falling Leaves",
         "description": "\"How the gentle wind \nbeckons through the leaves \nas autumn colors fall,\ndancing in a swirl \nof golden memories:\nthe loveliest lies of all.\"",
+        "author": "Fourmisain",
         "depends": {
             "fabricloader": ">=0.14.7",
             "fabric": "*",
@@ -730,10 +869,12 @@
         }
     },
     {
+        "filename": "farmers-delight-fabric-mc1.20.1-1.4.2.jar",
         "id": "farmersdelight",
         "version": "1.20.1-1.4.2",
         "name": "Farmer's Delight",
         "description": "Fabric port for the awesome Farmer's Delight Forge mod!",
+        "author": "Zifiv",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0+1.20",
@@ -741,10 +882,12 @@
         }
     },
     {
+        "filename": "ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
         "id": "forgeconfigapiport",
         "version": "8.0.0",
         "name": "Forge Config API Port",
         "description": "Forge's whole config system provided to the Fabric ecosystem. Designed for a multiloader architecture.",
+        "author": "Fuzs",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": ">=0.83.0",
@@ -753,10 +896,12 @@
         }
     },
     {
+        "filename": "freecam-fabric-1.2.1+1.20.jar",
         "id": "freecam",
         "version": "1.2.1+1.20",
         "name": "Freecam",
         "description": "A highly customizable freecam mod.",
+        "author": "hashalite",
         "depends": {
             "fabricloader": ">=0.12.11",
             "fabric": "*",
@@ -764,10 +909,12 @@
         }
     },
     {
+        "filename": "friendsandfoes-fabric-mc1.20.1-2.0.6.jar",
         "id": "friendsandfoes",
         "version": "2.0.6",
         "name": "Friends&Foes",
         "description": "Adds outvoted and forgotten mobs from the mob votes in a believable vanilla plus style.",
+        "author": "Faboslav",
         "depends": {
             "java": ">=17",
             "minecraft": ">=1.20.1",
@@ -776,10 +923,12 @@
         }
     },
     {
+        "filename": "gardens-of-the-dead-fabric-4.0.1.jar",
         "id": "gardens_of_the_dead",
         "version": "4.0.1",
         "name": "Gardens of the Dead",
         "description": "Adds new spooky biomes to the Nether. Created for Spooky Jam 2022.",
+        "author": "ochotonida",
         "depends": {
             "fabric": "*",
             "minecraft": ">=1.20",
@@ -788,20 +937,24 @@
         }
     },
     {
+        "filename": "geophilic-v2.1.0-mc1.20u1.20.2.jar",
         "id": "geophilic",
         "version": "v2.1.0-mc1.20u1.20.2",
         "name": "Geophilic",
         "description": "A subtle overhaul of Overworld biomes",
+        "author": "bebebea_loste",
         "depends": {
             "fabric-resource-loader-v0": "*",
             "minecraft": "<=1.20.2"
         }
     },
     {
+        "filename": "graves-3.0.0+1.20.1.jar",
         "id": "universal-graves",
         "version": "3.0.0+1.20.1",
         "name": "Universal Graves",
         "description": "Fully customisable grave mod that works server side!",
+        "author": "Patbox",
         "depends": {
             "fabricloader": ">=0.14.0",
             "fabric": "*",
@@ -810,10 +963,12 @@
         }
     },
     {
+        "filename": "guardvillagers-2.0.9-1.20.1.jar",
         "id": "guardvillagers",
         "version": "2.0.9-1.20.1",
         "name": "GuardVillagers",
         "description": "Better village pest controll!",
+        "author": "MrSterner",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20.1",
@@ -822,10 +977,12 @@
         }
     },
     {
+        "filename": "HeldItemTooltips-v8.0.0-1.20.1-Fabric.jar",
         "id": "helditemtooltips",
         "version": "8.0.0",
         "name": "Held Item Tooltips",
         "description": "See item enchantments, potion effects, shulker box contents and much more directly above your hotbar.",
+        "author": "Fuzs",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": ">=0.83.0",
@@ -835,10 +992,12 @@
         }
     },
     {
+        "filename": "immersive-portals-3.3.7-mc1.20.1-fabric.jar",
         "id": "immersive_portals",
         "version": "3.3.7",
         "name": "Immersive Portals",
         "description": "See through portals and travel between dimensions seamlessly. (Includes Dimension Data Fix mod)",
+        "author": "qouteall",
         "depends": {
             "fabricloader": ">=0.7.4",
             "fabric-api": ">=0.87.0",
@@ -868,10 +1027,12 @@
         }
     },
     {
+        "filename": "indium-1.0.27+mc1.20.1.jar",
         "id": "indium",
         "version": "1.0.27+mc1.20.1",
         "name": "Indium",
         "description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
+        "author": "comp500",
         "depends": {
             "fabricloader": ">=0.8.0",
             "minecraft": "~1.20.1",
@@ -881,10 +1042,12 @@
         }
     },
     {
+        "filename": "iris-mc1.20.1-1.6.11.jar",
         "id": "iris",
         "version": "1.6.11",
         "name": "Iris",
         "description": "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs",
+        "author": "coderbot",
         "depends": {
             "fabricloader": ">=0.12.3",
             "minecraft": "1.20.x",
@@ -903,10 +1066,12 @@
         }
     },
     {
+        "filename": "itemcollectors-1.1.9-fabric-mc1.20.jar",
         "id": "itemcollectors",
         "version": "1.1.9",
         "name": "Item Collectors",
         "description": "Item Collectors adds Collectors which collect items in a specified range! Item Collectors range can be changed and items can be whitelisted or blacklisted!",
+        "author": "SuperMartijn642",
         "depends": {
             "fabricloader": ">=0.14.0",
             "fabric": "*",
@@ -917,10 +1082,12 @@
         }
     },
     {
+        "filename": "Jade-1.20-fabric-11.7.0.jar",
         "id": "jade",
         "version": "11.7.0",
         "name": "Jade",
         "description": "Minecraft mod shows what you are looking at. (Hwyla fork)",
+        "author": "Snownee",
         "depends": {
             "fabricloader": ">=0.14",
             "minecraft": ">=1.20-",
@@ -928,10 +1095,12 @@
         }
     },
     {
+        "filename": "jei-1.20.1-fabric-15.2.0.27.jar",
         "id": "jei",
         "version": "15.2.0.27",
         "name": "Just Enough Items",
         "description": "JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.",
+        "author": "mezz",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": ">=0.83.0+1.20.1",
@@ -939,10 +1108,12 @@
         }
     },
     {
+        "filename": "JustEnoughFarmersRecipes-1.20.1-1.0.1.jar",
         "id": "fdjei",
         "version": "1.0.1",
         "name": "Just Enough Farmer's Recipes",
         "description": "This mod adds JEI support to the Fabric version of Farmer's Delight",
+        "author": "Anxxitty",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0+1.20",
@@ -953,10 +1124,12 @@
         }
     },
     {
+        "filename": "keybind_fix-1.0.0.jar",
         "id": "keybind_fix",
         "version": "1.0.0",
         "name": "Keybind Fix",
         "description": "Fixes keybindings overwriting each other when set as a conflict, allowing both keybindings to function (in game effects may still conflict)",
+        "author": "fzzyhmstrs",
         "depends": {
             "fabricloader": ">=0.13.3",
             "fabric": "*",
@@ -966,10 +1139,12 @@
         }
     },
     {
+        "filename": "Kiwi-1.20.1-fabric-11.1.1.jar",
         "id": "kiwi",
         "version": "11.1.1",
         "name": "Kiwi Library",
         "description": "Minecraft modding library",
+        "author": "Snownee",
         "depends": {
             "fabric-api": "*",
             "minecraft": ">=1.20-",
@@ -977,10 +1152,12 @@
         }
     },
     {
+        "filename": "leadthevillagers-1.0-1.20.3.jar",
         "id": "leadthevillagers",
         "version": "1.0-1.20.3",
         "name": "Lead The Villagers",
         "description": "Allows villagers to be moved with leads.",
+        "author": "Brazman",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": "*",
@@ -989,10 +1166,12 @@
         }
     },
     {
+        "filename": "LeavesBeGone-v8.0.0-1.20.1-Fabric.jar",
         "id": "leavesbegone",
         "version": "8.0.0",
         "name": "Leaves Be Gone",
         "description": "Quick leaf decay from cutting down trees. Built for great performance and mod compat!",
+        "author": "Fuzs",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": ">=0.83.0",
@@ -1006,10 +1185,12 @@
         }
     },
     {
+        "filename": "letmedespawn-fabric-1.20.x-1.2.0.jar",
         "id": "letmedespawn",
         "version": "1.2.0",
         "name": "Let Me Despawn",
         "description": "Seeks to improve performance by changing mob despawn rules.",
+        "author": "frikinjay",
         "depends": {
             "fabricloader": ">=0.11.3",
             "minecraft": ">=1.20",
@@ -1017,10 +1198,12 @@
         }
     },
     {
+        "filename": "librarian-trade-finder-2.0.1.jar",
         "id": "librarian-trade-finder",
         "version": "2.0.1",
         "name": "Librarian Trade Finder",
         "description": "A fabric mod that helps you find the enchantments you need from a Librarian Villager.",
+        "author": "Greenman999#8421",
         "depends": {
             "fabricloader": ">=0.14.13",
             "minecraft": ">=1.20",
@@ -1029,10 +1212,12 @@
         }
     },
     {
+        "filename": "libraryferret-fabric-1.20.1-4.0.0.jar",
         "id": "libraryferret",
         "version": "4.0.0",
         "name": "Library ferret",
         "description": "Shared code for my mod.",
+        "author": "JTorLeon Studios",
         "depends": {
             "minecraft": "~1.20",
             "fabric-api": "*",
@@ -1041,10 +1226,12 @@
         }
     },
     {
+        "filename": "logprot-fabric-1.20.1-3.3.jar",
         "id": "logprot",
         "version": "1.20.1-3.3",
         "name": "Logprot Mod",
         "description": "Protects the player during login from damage",
+        "author": "Someaddons",
         "depends": {
             "fabricloader": ">=0.11.3",
             "fabric": "*",
@@ -1054,10 +1241,12 @@
         }
     },
     {
+        "filename": "mcw-bridges-2.1.0-mc1.20.1fabric.jar",
         "id": "mcwbridges",
         "version": "2.1.0",
         "name": "Macaw's Bridges",
         "description": "A simple mod that adds a lot of bridges!",
+        "author": "SketchMacaw",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20.1",
@@ -1066,10 +1255,12 @@
         }
     },
     {
+        "filename": "mcw-fences-1.0.7-mc1.20.1fabric.jar",
         "id": "mcwfences",
         "version": "1.0.7",
         "name": "Macaw's Fences and Walls",
         "description": "Adds new vanila styled fences, walls and gates!",
+        "author": "SketchMacaw",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20.1",
@@ -1078,10 +1269,12 @@
         }
     },
     {
+        "filename": "mcw-roofs-2.2.4-mc1.20.1fabric.jar",
         "id": "mcwroofs",
         "version": "2.2.4",
         "name": "Macaw's Roofs",
         "description": "Builds roofs with actual roofs!",
+        "author": "SketchMacaw",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20.1",
@@ -1090,10 +1283,12 @@
         }
     },
     {
+        "filename": "mcw-windows-2.2.1-mc1.20.1fabric.jar",
         "id": "mcwwindows",
         "version": "2.2.1",
         "name": "Macaw's Windows",
         "description": "Adds lots of Windows, Mosaic Glass, Blinds, Arrow Slits and more..!",
+        "author": "SketchMacaw",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20.1",
@@ -1102,10 +1297,12 @@
         }
     },
     {
+        "filename": "mes-1.3-1.19.4-fabric.jar",
         "id": "mes",
         "version": "1.3-1.19.4-fabric",
         "name": "Moog's End Structures",
         "description": "80+ structures made with vanilla blocks and entities bringing life to your world! Discover loot, enemies, & villagers along the way!",
+        "author": "FinnDog",
         "depends": {
             "fabricloader": ">=0.14.11",
             "fabric": ">=0.68.0",
@@ -1114,20 +1311,24 @@
         }
     },
     {
+        "filename": "midnightlib-fabric-1.4.1.jar",
         "id": "midnightlib",
         "version": "1.4.1",
         "name": "MidnightLib",
         "description": "Common Library for Team MidnightDust's mods.",
+        "author": "Motschen",
         "depends": {
             "fabric-resource-loader-v0": "*",
             "minecraft": ">=1.20-beta.2"
         }
     },
     {
+        "filename": "MobCapturingTool-fabric-1.20.1-3.0.2.jar",
         "id": "mobcapturingtool",
         "version": "3.0.2",
         "name": "Mob Capturing Tool",
         "description": "A Minecraft mod adding a mob capturing tool.",
+        "author": "Matyrobbrt",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric": "*",
@@ -1136,10 +1337,12 @@
         }
     },
     {
+        "filename": "modmenu-7.2.1.jar",
         "id": "modmenu",
         "version": "7.2.1",
         "name": "Mod Menu",
         "description": "Adds a mod menu to view the list of mods you have installed.",
+        "author": "Prospector",
         "depends": {
             "fabric-resource-loader-v0": "*",
             "fabric-screen-api-v1": ">=1.0.4",
@@ -1153,20 +1356,24 @@
         }
     },
     {
+        "filename": "moonlight-1.20-2.8.52-fabric.jar",
         "id": "moonlight",
         "version": "1.20-2.8.52",
         "name": "Moonlight",
         "description": "Custom Villagers AI and Map Markers, First and third person item animations, dynamic assets and registration & more",
+        "author": "MehVahdJukaar",
         "depends": {
             "fabric": ">=0.86.0",
             "minecraft": "1.20.1"
         }
     },
     {
+        "filename": "more_armor_trims-fabric-1.20.1-1.1.3.jar",
         "id": "more_armor_trims",
         "version": "1.1.3-1.20.1",
         "name": "More Armor Trims",
         "description": "Adds new armor trims",
+        "author": "Masik16u",
         "depends": {
             "fabricloader": ">=0.14.17",
             "fabric-api": "*",
@@ -1175,10 +1382,12 @@
         }
     },
     {
+        "filename": "MouseTweaks-fabric-mc1.20-2.25.jar",
         "id": "mousetweaks",
         "version": "2.25",
         "name": "Mouse Tweaks",
         "description": "A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.",
+        "author": "Ivan Molodetskikh (YaLTeR)",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -1187,10 +1396,12 @@
         }
     },
     {
+        "filename": "mvs-4.1.1-1.20-fabric.jar",
         "id": "mvs",
         "version": "4.1.1-1.20-fabric",
         "name": "Moog's Voyager Structures",
         "description": "80+ structures made with vanilla blocks and entities bringing life to your world! Discover loot, enemies, & villagers along the way!",
+        "author": "FinnDog",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric": ">=0.83.0",
@@ -1199,10 +1410,12 @@
         }
     },
     {
+        "filename": "NaturesCompass-1.20.1-2.2.3-fabric.jar",
         "id": "naturescompass",
         "version": "1.20.1-2.2.3-fabric",
         "name": "Nature's Compass",
         "description": "Search for a biome and get information about it.",
+        "author": "ChaosTheDude",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -1211,10 +1424,12 @@
         }
     },
     {
+        "filename": "NethersDelight-1.0.0.jar",
         "id": "nethersdelight",
         "version": "1.0.0",
         "name": "Nether's Delight",
         "description": "Nether's Delight is an addon mod for Farmer's Delight based around adding culinary content to the nether!  ",
+        "author": "JustinPlayzz",
         "depends": {
             "fabricloader": ">=0.14.22",
             "fabric": "*",
@@ -1223,10 +1438,12 @@
         }
     },
     {
+        "filename": "oceansdelight-fabric-1.0.2-1.20.jar",
         "id": "oceansdelight",
         "version": "fabric-1.0.2-1.20",
         "name": "Ocean's Delight",
         "description": "This is a mod that adds food based on the creatures in the ocean",
+        "author": "Scouter",
         "depends": {
             "fabricloader": ">=0.14.9",
             "fabric-api": "*",
@@ -1236,10 +1453,12 @@
         }
     },
     {
+        "filename": "OnlyHammers-1.20.1-0.5-Fabric.jar",
         "id": "onlyhammers",
         "version": "1.20.1-0.5",
         "name": "OnlyHammers",
         "description": "A simple mod that adds various type of hammers, that mine 3x3 area",
+        "author": "Block_Legend001",
         "depends": {
             "fabricloader": ">=0.14.23",
             "fabric": "*",
@@ -1247,10 +1466,12 @@
         }
     },
     {
+        "filename": "Philips-Ruins1.20.1-2.9[Fabric].jar",
         "id": "philipsruins",
         "version": "1.20.1",
         "name": "Philip`s Ruins",
         "description": " Philip`s Ruins is a structure generator mod.\n   It adds over 200 new structures to your\n   minercaft world. The structures have custom\n   loot, very big dungeons, and small to big ruins.   Our sponsor: Use the Code ModDev5019 to get 25% off.\n   Bisect-Hosting:https://www.bisecthosting.com/minecraft-servers",
+        "author": "Philip",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20.1",
@@ -1258,10 +1479,12 @@
         }
     },
     {
+        "filename": "physics-mod-3.0.10-mc-1.20.1-fabric.jar",
         "id": "physicsmod",
         "version": "3.0.10",
         "name": "Physics Mod",
         "description": "Welcome to a more destructive Minecraft then you've ever seen before!",
+        "author": "Haubna",
         "depends": {
             "fabricloader": ">=0.14.14",
             "minecraft": ">=1.19.3",
@@ -1270,10 +1493,12 @@
         }
     },
     {
+        "filename": "PickUpNotifier-v8.0.0-1.20.1-Fabric.jar",
         "id": "pickupnotifier",
         "version": "8.0.0",
         "name": "Pick Up Notifier",
         "description": "Be notified about all the things you've just collected.",
+        "author": "Fuzs",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": ">=0.83.0",
@@ -1283,10 +1508,12 @@
         }
     },
     {
+        "filename": "polymorph-fabric-0.49.1+1.20.1.jar",
         "id": "polymorph",
         "version": "0.49.1+1.20.1",
         "name": "Polymorph",
         "description": "No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.",
+        "author": "Illusive Soulworks",
         "depends": {
             "fabricloader": ">=0.14.23",
             "fabric": "*",
@@ -1295,10 +1522,12 @@
         }
     },
     {
+        "filename": "PureAmethystTools-v2.0.1-1.20.1-Fabric.jar",
         "id": "pureamethysttools",
         "version": "2.0.1",
         "name": "Pure Amethyst Tools",
         "description": "A unique take on amethyst armor and tools, that just may fit your vibe.",
+        "author": "purejosh",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -1307,10 +1536,12 @@
         }
     },
     {
+        "filename": "PureCopperTools-v1.0.1-1.20.1-Fabric.jar",
         "id": "purecoppertools",
         "version": "1.0.1",
         "name": "Pure Copper Tools",
         "description": "A unique take on copper armor and tools, that just may fit your vibe.",
+        "author": "purejosh",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -1319,10 +1550,12 @@
         }
     },
     {
+        "filename": "PureEmeraldTools-v3.0.0-1.20.1-Fabric.jar",
         "id": "pureemeraldtools",
         "version": "3.0.0",
         "name": "Pure Emerald Tools",
         "description": "A unique take on emerald armor and tools, that just may fit your vibe.",
+        "author": "purejosh",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -1331,10 +1564,12 @@
         }
     },
     {
+        "filename": "puzzledungeon-fabric-1.20.1-1.2.0.jar",
         "id": "masiks_puzzle_dungeon",
         "version": "1.2.0",
         "name": "Masik's Puzzle Dungeon",
         "description": "Adds a vanilla like redstone puzzle dungeon",
+        "author": "Masik16u",
         "depends": {
             "fabricloader": ">=0.14.17",
             "fabric-api": "*",
@@ -1343,10 +1578,12 @@
         }
     },
     {
+        "filename": "PuzzlesLib-v8.1.17-1.20.1-Fabric.jar",
         "id": "puzzleslib",
         "version": "8.1.17",
         "name": "Puzzles Lib",
         "description": "Why's it called Puzzles you ask? That's the puzzle!",
+        "author": "Fuzs",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": ">=0.86.0",
@@ -1356,19 +1593,23 @@
         }
     },
     {
+        "filename": "reds-more-structures-1.0.8-common.jar",
         "id": "mr_reds_morestructures",
         "version": "1.0.8",
         "name": "Red’s More Structures",
         "description": "Adds more structures and dungeons to Minecraft",
+        "author": "redstonegamesb",
         "depends": {
             "fabric-resource-loader-v0": "*"
         }
     },
     {
+        "filename": "reeses_sodium_options-1.6.5+mc1.20.1-build.95.jar",
         "id": "reeses-sodium-options",
         "version": "1.6.5+mc1.20.1-build.95",
         "name": "Reese's Sodium Options",
         "description": "Replaces Sodium's Options Screen",
+        "author": "FlashyReese",
         "depends": {
             "minecraft": "1.20.x",
             "sodium": "*"
@@ -1380,10 +1621,12 @@
         }
     },
     {
+        "filename": "RegionsUnexploredFabric-0.5.3.2+1.20.1.jar",
         "id": "regions_unexplored",
         "version": "0.5.3.2+1.20.1",
         "name": "Regions Unexplored",
         "description": "Regions Unexplored is a mod that aims to add new content to the overworld. Currently adds almost 70 new biomes!",
+        "author": "UHQ_Games (Owner)",
         "depends": {
             "fabricloader": ">=0.14.11",
             "fabric": "*",
@@ -1392,10 +1635,12 @@
         }
     },
     {
+        "filename": "Searchables-fabric-1.20.1-1.0.2.jar",
         "id": "searchables",
         "version": "1.0.2",
         "name": "Searchables",
         "description": "A library mod to facilitate adding search bars with auto complete and search types.",
+        "author": "Jaredlll08",
         "depends": {
             "fabricloader": ">=0.14",
             "java": ">=17",
@@ -1403,10 +1648,12 @@
         }
     },
     {
+        "filename": "show-me-your-skin-1.6.11+1.20.jar",
         "id": "showmeyourskin",
         "version": "1.6.11+1.20",
         "name": "Show Me Your Skin!",
         "description": "A mod to hide or customize armor rendering.",
+        "author": "enjarai",
         "depends": {
             "fabric-api": "*",
             "minecraft": ">=1.20- <1.20.2-",
@@ -1416,10 +1663,12 @@
         }
     },
     {
+        "filename": "SkyVillages-1.0.3.2-1.19.2-1.20.1-fabric.jar",
         "id": "skyvillages",
         "version": "1.0.3.2-1.19.2-1.20.1",
         "name": "Sky Villages",
         "description": "Yes, that's right! Villages in the land of clouds! Explore massive and beautiful villages in the sky! These villages generate entirely randomly on your world, and each of these sky towns will have a distinctive and unique look!",
+        "author": "Y3SON, Aurelj",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": ">=1.19.2",
@@ -1428,10 +1677,12 @@
         }
     },
     {
+        "filename": "SnowRealMagic-1.20.1-fabric-9.1.2.jar",
         "id": "snowrealmagic",
         "version": "9.1.2",
         "name": "Snow! Real Magic!",
         "description": "Tweaks vanilla snow layer",
+        "author": "Snownee",
         "depends": {
             "fabricloader": ">=0.11.3",
             "minecraft": ">=1.20",
@@ -1440,10 +1691,12 @@
         }
     },
     {
+        "filename": "snowyspirit-1.20-2.2.5-fabric.jar",
         "id": "snowyspirit",
         "version": "1.20-2.2.5",
         "name": "Snowy Spirit",
         "description": "Winter themed mod that adds working sleds and winter related items with related ai tweaks for villagers",
+        "author": "Mehvahdjukaar, Plantkillable",
         "depends": {
             "fabric": "*",
             "minecraft": ">=1.20",
@@ -1451,10 +1704,12 @@
         }
     },
     {
+        "filename": "sodium-extra-0.5.1+mc1.20.1-build.112.jar",
         "id": "sodium-extra",
         "version": "0.5.1+mc1.20.1-build.112",
         "name": "Sodium Extra",
         "description": "Features that shouldn't be in Sodium.",
+        "author": "FlashyReese",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric-api": "*",
@@ -1466,10 +1721,18 @@
         }
     },
     {
+        "filename": "sodium-fabric-mc1.20.1-0.5.3.jar",
         "id": "sodium",
         "version": "0.5.3",
         "name": "Sodium",
         "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
+        "author": {
+            "name": "@jellysquid3",
+            "contact": {
+                "email": "jellysquid@pm.me",
+                "homepage": "https://jellysquid.me"
+            }
+        },
         "depends": {
             "minecraft": "1.20.1",
             "fabricloader": ">=0.12.0",
@@ -1502,20 +1765,24 @@
         }
     },
     {
+        "filename": "splash_milk-2.1.0.jar",
         "id": "splash_milk",
         "version": "2.1.0",
         "name": "Splash Milk",
         "description": "Milk splash potion should exists.",
+        "author": "MarbleGateKeeper",
         "depends": {
             "fabric": "*",
             "minecraft": ">=1.20"
         }
     },
     {
+        "filename": "stackrefill-1.20.1-4.2.jar",
         "id": "stackrefill",
         "version": "4.2",
         "name": "Stack Refill",
         "description": "A quality of life mod which automatically refills the item in the hand of the player when using the final item if possible.",
+        "author": "Rick South",
         "depends": {
             "fabricloader": ">=0.12.5",
             "fabric": "*",
@@ -1525,10 +1792,12 @@
         }
     },
     {
+        "filename": "Stoneworks-v8.0.0-1.20.1-Fabric.jar",
         "id": "stoneworks",
         "version": "8.0.0",
         "name": "Stoneworks",
         "description": "Vanilla stone types in plenty of variations for all your building needs.",
+        "author": "Fuzs",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": ">=0.83.0",
@@ -1538,10 +1807,12 @@
         }
     },
     {
+        "filename": "StrongerSnowballs-Fabric-1.20.1-13.0.2.jar",
         "id": "strongersnowballs",
         "version": "13.0.2",
         "name": "StrongerSnowballs",
         "description": "Gives snowballs a needed buff!",
+        "author": "Darkhax",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -1550,10 +1821,12 @@
         }
     },
     {
+        "filename": "Structory_1.20.2_v1.3.4.jar",
         "id": "structory",
         "version": "1.3.4",
         "name": "Structory",
         "description": "Structory (v1.3.4 for 1.20-1.20.2)",
+        "author": "Starmute",
         "depends": {
             "fabricloader": ">=0.12.7",
             "fabric-api-base": "*",
@@ -1561,10 +1834,12 @@
         }
     },
     {
+        "filename": "structureessentials-fabric-1.20.1-3.2.jar",
         "id": "structureessentials",
         "version": "1.20.1-3.2",
         "name": "Structure Essentials Mod",
         "description": "Essential utilities for structures",
+        "author": "Someaddons",
         "depends": {
             "fabricloader": ">=0.11.3",
             "fabric": "*",
@@ -1574,10 +1849,12 @@
         }
     },
     {
+        "filename": "supermartijn642configlib-1.1.8a-fabric-mc1.20.jar",
         "id": "supermartijn642configlib",
         "version": "1.1.8+a",
         "name": "SuperMartijn642's Config Lib",
         "description": "Config Lib makes dealing with config files just a bit easier.",
+        "author": "SuperMartijn642",
         "depends": {
             "fabricloader": ">=0.14.0",
             "fabric": "*",
@@ -1586,10 +1863,12 @@
         }
     },
     {
+        "filename": "supermartijn642corelib-1.1.16-fabric-mc1.20.1.jar",
         "id": "supermartijn642corelib",
         "version": "1.1.16",
         "name": "SuperMartijn642's Core Lib",
         "description": "SuperMartijn642's Core Lib adds lots of basic implementations for guis that allow for similar code between Minecraft 1.12, 1.14, 1.15, and 1.16!",
+        "author": "SuperMartijn642",
         "depends": {
             "fabricloader": ">=0.14.0",
             "fabric": ">=0.86.1",
@@ -1598,10 +1877,12 @@
         }
     },
     {
+        "filename": "supplementaries-1.20-2.6.17-fabric.jar",
         "id": "supplementaries",
         "version": "1.20-2.6.17",
         "name": "Supplementaries",
         "description": "Many functional and useful Vanilla+ blocks",
+        "author": "MehVahdJukaar, Plantkillable",
         "depends": {
             "fabric": "*",
             "minecraft": ">=1.20",
@@ -1609,10 +1890,12 @@
         }
     },
     {
+        "filename": "table_top_craft-1.20-5.0.1.jar",
         "id": "table_top_craft",
         "version": "1.20-5.0.1",
         "name": "Table Top Craft",
         "description": "Table Top Craft is a Mod that adds playable table top games to Minecraft.",
+        "author": "andrew0030",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": "*",
@@ -1621,10 +1904,12 @@
         }
     },
     {
+        "filename": "TerraBlender-fabric-1.20.1-3.0.0.169.jar",
         "id": "terrablender",
         "version": "3.0.0.169",
         "name": "TerraBlender",
         "description": "A library mod for adding biomes in a simple and compatible manner with Minecraft's new biome/terrain system.",
+        "author": "Adubbz",
         "depends": {
             "fabricloader": "*",
             "fabric": "*",
@@ -1633,20 +1918,24 @@
         }
     },
     {
+        "filename": "tia-1.20-1.1-fabric.jar",
         "id": "tia",
         "version": "1.20-1.1",
         "name": "Tiny Item Animations",
         "description": "Adds a cute little animation when picking up items with your mouse.",
+        "author": "Trivaxy",
         "depends": {
             "fabricloader": ">=0.14.21",
             "java": ">=17"
         }
     },
     {
+        "filename": "tlc-fabric-1.0.1-1.20.X.jar",
         "id": "tlc",
         "version": "1.0.1",
         "name": "The Lost Castle",
         "description": "The Lost Castle introduces an enormous castle that you'll be able to find with the help of a map given by a journeyman cartographer.",
+        "author": "Jack Bagel",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": "*",
@@ -1655,10 +1944,12 @@
         }
     },
     {
+        "filename": "toofast-fabric-1.20-1.2.0.jar",
         "id": "toofast",
         "version": "1.2.0",
         "name": "TooFast",
         "description": "Disables 'moved too quickly' for recent versions of Minecraft.",
+        "author": "ZestyBlaze",
         "depends": {
             "fabricloader": ">=0.14",
             "fabric": "*",
@@ -1667,10 +1958,12 @@
         }
     },
     {
+        "filename": "totw_additions-1.3.0-1.20.x-fabric.jar",
         "id": "totw_additions",
         "version": "1.3",
         "name": "Towers of the Wild: Additions",
         "description": "Adds end and nether towers to Towers of the Wild.",
+        "author": "Aurelj",
         "depends": {
             "fabricloader": ">=0.13.3",
             "minecraft": ">=1.20",
@@ -1678,10 +1971,12 @@
         }
     },
     {
+        "filename": "Towns-and-Towers-1.12-Fabric+Forge.jar",
         "id": "t_and_t",
         "version": "1.12",
         "name": "Towns and Towers",
         "description": "Spice up your world with new villages, pillager outposts, and even new ships!",
+        "author": "Kubek and Biban_Auriu",
         "depends": {
             "fabricloader": ">=0.12.0",
             "fabric": "*",
@@ -1690,10 +1985,12 @@
         }
     },
     {
+        "filename": "travelers-backpack-1.20.1-9.1.9.jar",
         "id": "travelersbackpack",
         "version": "1.20.1-9.1.9",
         "name": "Traveler's Backpack",
         "description": "Traveler's Backpack for Fabric!",
+        "author": "Tiviacz1337",
         "depends": {
             "fabricloader": ">=0.14.6",
             "fabric": "*",
@@ -1705,10 +2002,17 @@
         }
     },
     {
+        "filename": "trinkets-3.7.1.jar",
         "id": "trinkets",
         "version": "3.7.1",
         "name": "Trinkets",
         "description": "Adds a data-driven accessory system to Minecraft",
+        "author": {
+            "name": "Emi",
+            "contact": {
+                "github": "https://github.com/emilyploszaj"
+            }
+        },
         "depends": {
             "minecraft": ">1.18",
             "fabricloader": ">=0.7.0",
@@ -1718,10 +2022,12 @@
         }
     },
     {
+        "filename": "twigs-3.1.0-fabric.jar",
         "id": "twigs",
         "version": "3.1.0",
         "name": "Twigs",
         "description": "A Minecraft mod all about building, adding new and interesting materials, as well as new renditions of current vanilla blocks.",
+        "author": "Ninni",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": "*",
@@ -1730,10 +2036,12 @@
         }
     },
     {
+        "filename": "uglyscoreboardfix-2.10.0.jar",
         "id": "uglyscoreboardfix",
         "version": "2.10.0",
         "name": "Ugly Scoreboard Fix",
         "description": "Scoreboard sidebar modifications",
+        "author": "Lortseam",
         "depends": {
             "java": ">=17",
             "fabricloader": ">=0.11.3",
@@ -1741,10 +2049,12 @@
         }
     },
     {
+        "filename": "undergroundjungle-1.20-2.2.1-fabric.jar",
         "id": "underground_jungle",
         "version": "${version}",
         "name": "Underground Jungle",
         "description": "Adds an underground jungle biome and an underground jungle temple",
+        "author": "HexagonNico",
         "depends": {
             "fabricloader": ">=0.14.23",
             "minecraft": "~1.20.1",
@@ -1752,10 +2062,12 @@
         }
     },
     {
+        "filename": "villager-hats-1.6.2+1.20.jar",
         "id": "villager-hats",
         "version": "1.6.2+1.20",
         "name": "Villager Hats",
         "description": "A simple Mod that allows you to wear Villagers' Hats as Trinkets.",
+        "author": "PinkGoosik",
         "depends": {
             "fabricloader": "*",
             "fabric-api": "*",
@@ -1764,10 +2076,12 @@
         }
     },
     {
+        "filename": "VillagersPlus_3.1_(FABRIC)_for_1.20.1.jar",
         "id": "villagersplus",
         "version": "3.1",
         "name": "Villagers Plus",
         "description": "New villagers, new trades and new beautiful and useful workstations.",
+        "author": "Finallion",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric-api": "*",
@@ -1776,10 +2090,12 @@
         }
     },
     {
+        "filename": "villagespawnpoint-1.20.1-4.0.jar",
         "id": "villagespawnpoint",
         "version": "4.0",
         "name": "Village Spawn Point",
         "description": "Sets the spawn point of a new world to always be in the center of a village.",
+        "author": "Rick South",
         "depends": {
             "fabricloader": ">=0.12.5",
             "fabric": "*",
@@ -1789,19 +2105,23 @@
         }
     },
     {
+        "filename": "visible-barriers-2.0.9.jar",
         "id": "visiblebarriers",
         "version": "2.0.9",
         "name": "Visible Barriers",
         "description": "Various tools for Minecraft Mapmaking.",
+        "author": "AmyMialee",
         "depends": {
             "fabric": "*"
         }
     },
     {
+        "filename": "whokilledtheenderdragon-1.0.0-1.20.1.jar",
         "id": "whokilledtheenderdragon",
         "version": "1.0.0-1.20.1",
         "name": "Who Killed The Ender Dragon mod",
         "description": "Who is killing the Ender Dragon?",
+        "author": "Me!",
         "depends": {
             "fabricloader": ">=0.14.21",
             "minecraft": "~1.20.1",
@@ -1810,10 +2130,12 @@
         }
     },
     {
+        "filename": "Wurst-Client-v7.39.1-MC1.20.1.jar",
         "id": "wurst",
         "version": "v7.39.1-MC1.20.1",
         "name": "Wurst Client",
         "description": "Wurst Wurst Wurst!",
+        "author": "Alexander01998",
         "depends": {
             "fabricloader": ">=0.14.19",
             "fabric-api": ">=0.81.2",
@@ -1826,10 +2148,12 @@
         }
     },
     {
+        "filename": "Xaeros_Minimap_23.9.3_Fabric_1.20.jar",
         "id": "xaerominimap",
         "version": "23.9.3",
         "name": "Xaero's Minimap",
         "description": "The most vanilla-looking minimap for Minecraft.",
+        "author": "Xaero96",
         "depends": {
             "minecraft": ">1.19.4",
             "fabric-api": ">=0.43.1",
@@ -1840,10 +2164,12 @@
         }
     },
     {
+        "filename": "yet-another-config-lib-fabric-3.2.1+1.20.jar",
         "id": "yet_another_config_lib_v3",
         "version": "3.2.1+1.20",
         "name": "YetAnotherConfigLib",
         "description": "YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.",
+        "author": "isXander",
         "depends": {
             "fabricloader": ">=0.14.0",
             "minecraft": ">1.20-",
@@ -1852,10 +2178,12 @@
         }
     },
     {
+        "filename": "YungsApi-1.20-Fabric-4.0.2.jar",
         "id": "yungsapi",
         "version": "1.20-Fabric-4.0.2",
         "name": "YUNG's API",
         "description": "API Library for YUNG's minecraft mods.",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1863,10 +2191,12 @@
         }
     },
     {
+        "filename": "YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
         "id": "betterdeserttemples",
         "version": "1.20-Fabric-3.0.3",
         "name": "YUNG's Better Desert Temples",
         "description": "A complete redesign of Minecraft's desert temples!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1877,10 +2207,12 @@
         }
     },
     {
+        "filename": "YungsBetterDungeons-1.20-Fabric-4.0.3.jar",
         "id": "betterdungeons",
         "version": "1.20-Fabric-4.0.3",
         "name": "YUNG's Better Dungeons",
         "description": "A complete redesign of Minecraft's dungeons",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1891,10 +2223,12 @@
         }
     },
     {
+        "filename": "YungsBetterEndIsland-1.20-Fabric-2.0.4.jar",
         "id": "betterendisland",
         "version": "1.20-Fabric-2.0.4",
         "name": "YUNG's Better End Island",
         "description": "A complete redesign of the End island, making the Ender Dragon fight much more fun and interesting!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1904,10 +2238,12 @@
         }
     },
     {
+        "filename": "YungsBetterJungleTemples-1.20-Fabric-2.0.4.jar",
         "id": "betterjungletemples",
         "version": "1.20-Fabric-2.0.4",
         "name": "YUNG's Better Jungle Temples",
         "description": "A complete redesign of Minecraft's Jungle Temples!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1918,10 +2254,12 @@
         }
     },
     {
+        "filename": "YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
         "id": "bettermineshafts",
         "version": "1.20-Fabric-4.0.4",
         "name": "YUNG's Better Mineshafts",
         "description": "The long-awaited and much-needed abandoned mineshaft overhaul!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1932,10 +2270,12 @@
         }
     },
     {
+        "filename": "YungsBetterNetherFortresses-1.20-Fabric-2.0.5.jar",
         "id": "betterfortresses",
         "version": "1.20-Fabric-2.0.5",
         "name": "YUNG's Better Nether Fortresses",
         "description": "A complete redesign of Minecraft's Nether Fortresses!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1946,10 +2286,12 @@
         }
     },
     {
+        "filename": "YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
         "id": "betteroceanmonuments",
         "version": "1.20-Fabric-3.0.4",
         "name": "YUNG's Better Ocean Monuments",
         "description": "A complete redesign of Minecraft's ocean monuments!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1960,10 +2302,12 @@
         }
     },
     {
+        "filename": "YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
         "id": "betterstrongholds",
         "version": "1.20-Fabric-4.0.3",
         "name": "YUNG's Better Strongholds",
         "description": "A complete redesign of Minecraft's strongholds!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1974,10 +2318,12 @@
         }
     },
     {
+        "filename": "YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar",
         "id": "betterwitchhuts",
         "version": "1.20-Fabric-3.0.3",
         "name": "YUNG's Better Witch Huts",
         "description": "Adds new and improved witch huts to swamps!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -1988,10 +2334,12 @@
         }
     },
     {
+        "filename": "YungsBridges-1.20-Fabric-4.0.3.jar",
         "id": "yungsbridges",
         "version": "1.20-Fabric-4.0.3",
         "name": "YUNG's Bridges",
         "description": "Adds naturally occurring bridges throughout the world!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",
@@ -2002,10 +2350,12 @@
         }
     },
     {
+        "filename": "YungsExtras-1.20-Fabric-4.0.3.jar",
         "id": "yungsextras",
         "version": "1.20-Fabric-4.0.3",
         "name": "YUNG's Extras",
         "description": "Extra structures and vanilla+ content added throughout the game!",
+        "author": "YUNGNICKYOUNG",
         "depends": {
             "fabricloader": ">=0.14.21",
             "fabric": ">=0.83.0",

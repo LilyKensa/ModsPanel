@@ -42,9 +42,15 @@ function versionString(version: string | Array<string>) {
 
 let list = (arr: Array<string>) => Object.keys(arr).map(k => `<code>${k}${versionString(arr[k])}</code>`).join(", ")
 
-let template = ({ id, version, name, description, depends, breaks }) => /* html */ `
+let template = ({ filename, id, version, name, description, author, depends, breaks }) => /* html */ `
   <div class="modslist-item position-relative">
-    <code>${id}@${version}</code>
+    <div>
+      <code>${filename}</code>
+      &nbsp;·&nbsp;
+      <code>${author}</code>
+      &nbsp;-&nbsp;
+      <code>${id}@${version}</code>
+    </div>
     <h2 class="my-3">${capitalize(name)}</h2>
     <p>${description}</p>
     ${depends ? /* html */ `

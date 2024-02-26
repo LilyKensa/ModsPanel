@@ -8,6 +8,17 @@ enum Env {
   MODS_FOLDER = "../mods/"
 }
 
+interface ModData {
+  filename: string
+  id: string,
+  version: string,
+  name: string,
+  description: string,
+  author: string,
+  depends: Record<string, string>,
+  breaks: Record<string, string>
+}
+
 async function reloadModsList() {
   let modsList: Array<ModData> = [];
   for (let file of await fs.promises.readdir(Env.MODS_FOLDER)) {
@@ -28,10 +39,12 @@ async function reloadModsList() {
     );
 
     modsList.push({
+      filename: file,
       id: modData.id,
       version: modData.version,
       name: modData.name,
       description: modData.description,
+      author: modData.authors[0],
       depends: modData.depends,
       breaks: modData.breaks
     });
@@ -54,15 +67,6 @@ server.use(express.static(Path.join(__dirname, "public")));
 server.get("/", async (req, res) => {
   res.sendFile("./Page/index.html", { root: __dirname });
 });
-
-interface ModData {
-  id: string,
-  version: string,
-  name: string,
-  description: string,
-  depends: Record<string, string>,
-  breaks: Record<string, string>
-}
 
 server.get("/get_modslist", async (req, res) => {
   res.send(await getModsList());
