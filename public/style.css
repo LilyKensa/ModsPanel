@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   position: relative;
 }
@@ -92,11 +96,23 @@ body {
   opacity: 0;
   transition: 0.2s ease;
 }
+.modslist-item > .buttons > .btn {
+  height: 28px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
 .modslist-item > .buttons > .switch {
+  height: 28px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 56px;
 }
 .modslist-item > .buttons > .switch > input {
   opacity: 0;
@@ -104,34 +120,45 @@ body {
   height: 0;
 }
 .modslist-item > .buttons > .switch > .slider {
+  height: 28px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  width: 56px;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-  transition: 0.4s ease;
+  background-color: transparent;
+  transition: 0.3s ease;
 }
 .modslist-item > .buttons > .switch > .slider:before {
-  position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
   transition: 0.4s ease;
+  border-radius: 8px;
+}
+.modslist-item > .buttons > .switch > :not(:checked) + .slider {
+  border: 1px solid #a5a5a5;
+}
+.modslist-item > .buttons > .switch > :not(:checked) + .slider::before {
+  background-color: #b1b1b1;
 }
 .modslist-item > .buttons > .switch > input:checked + .slider {
-  background-color: #2196F3;
+  background: #389e27;
 }
-.modslist-item > .buttons > .switch > input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+.modslist-item > .buttons > .switch > input:checked + .slider::before {
+  background-color: white;
+  transform: translateX(28px);
 }
-.modslist-item > .buttons > .switch > input:checked + .slider:before {
-  transform: translateX(26px);
-}
+
 #back-to-top {
   --size: 50px;
   width: var(--size);

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   position: relative;
 }
@@ -103,51 +107,75 @@ body {
     opacity: 0;
     transition: .2s ease;
 
+    $width: 56px;
+    $height: 28px;
+    $padding: 5px;
+    $border: 1px;
+
+    @mixin button-template {
+      height: #{$height};
+      border-radius: 10px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    > .btn {
+      @include button-template;
+      margin-left: 8px;
+    }
+
     > .switch {
+      @include button-template;
       position: relative;
       display: inline-block;
-      width: 60px;
-      height: 34px;
+      width: #{$width};
 
+      // general
       > input {
         opacity: 0;
         width: 0;
         height: 0;
       }
       > .slider {
+        @include button-template;
         position: absolute;
+        width: #{$width};
         cursor: pointer;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #ccc;
-        transition: .4s ease;
+        background-color: transparent;
+        transition: .3s ease;
       }
-
       > .slider:before {
-        position: absolute;
         content: "";
-        height: 26px;
-        width: 26px;
-        left: 4px;
-        bottom: 4px;
-        background-color: white;
+        position: absolute;
+        top: #{$padding - $border};
+        left: #{$padding};
+        width: #{$height - 2 * $padding};
+        height: #{$height - 2 * $padding};
         transition: .4s ease;
-      }
-      > input:checked + .slider {
-        background-color: #2196F3;
-      }
-      
-      > input:focus + .slider {
-        box-shadow: 0 0 1px #2196F3;
-      }
-      > input:checked + .slider:before {
-        transform: translateX(26px);
+        border-radius: 8px;
       }
 
-      > .btn {
-        
+      // not checked
+      > :not(:checked) + .slider {
+        border: #{$border} solid #a5a5a5;
+      }
+      > :not(:checked) + .slider::before {
+        background-color: #b1b1b1;
+      }
+
+      // checked
+      > input:checked + .slider {
+        background: #389e27;
+      }
+      > input:checked + .slider::before {
+        background-color: white;
+        transform: translateX(#{$width - $height});
       }
     }
   }

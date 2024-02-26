@@ -68,7 +68,7 @@ let template = ({ filename, id, version, name, description, author, depends, bre
         <input type="checkbox" checked>
         <span class="slider"></span>
       </label>
-      <div class="btn btn-outline-danger rounded-3">
+      <div class="btn btn-outline-danger">
         <i class="fa-solid fa-trash"></i>
       </div>
     </div>
