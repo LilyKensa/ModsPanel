@@ -1,8 +1,8 @@
 # Huey's Minecraft Mods Panel
 
-By @LilyKensa,
-  aka. Huey☆ 
-  aka. \_hueeey\_ in Minecraft
+By [@LilyKensa](https://github.com/LilyKensa/),
+  <small>aka.</small> Huey☆ 
+  <small>aka.</small> `_hueeey_` in Minecraft
 
 ## Features
 
@@ -55,7 +55,7 @@ node index
 
 ~~​ If you encounter any issue, don't contact me because I probably won't be able to solve it for you ​~~
 
-Just kidding, you can always find me on discord @.\_hueeey\_.
+Just kidding, you can always find me on discord `@._hueeey_.`
 
 ## For Devs
 
